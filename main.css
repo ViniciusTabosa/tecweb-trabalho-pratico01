@@ -1,3 +1,14 @@
-div#entrevista {
-    background-color: gray;
+section.destaque{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+}
+
+section.destaque h2{
+    align-self: start;
+}
+
+section.destaque select{
+    align-self: center;
+    
 }
