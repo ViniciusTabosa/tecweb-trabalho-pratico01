@@ -1,0 +1,30 @@
+section.destaque{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+}
+
+section.destaque h2{
+    align-self: start;
+}
+
+section.destaque select{
+    align-self: center;
+    
+}
+
+section.entrevista{
+    background-color: lightblue;
+}
+
+section.novos-videos{
+    background-color: lightcoral;
+}
+
+aside.sobre-novos-videos{
+    background-color: lightcoral;
+}
+
+section.propagandas{
+    background-color: lightgreen;
+}
