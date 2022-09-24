@@ -1,30 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Destaque */
 section.destaque{
+    width: 70rem;
+    height: 30rem;
+    margin: auto;
+
+    display: flex;
     background-color: bisque;
+    flex-direction: column;
+}
+
+section.destaque button{
+    display: flex;
+    margin-right: 10px;
+    align-self: flex-end;
+}
+
+section.menu-destaque{
+    display: flex;
+    background-color: darkseagreen;
+    border: 1px black solid;  
+    justify-content: space-between;
+}
+
+section.menu-destaque h2{
+    margin-left: 10px;
+}
+
+section.menu-destaque select{
+    display: flex;
+    align-self: center;
+    margin-right: 10px;
+}
+
+div.destaque-filme{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+div.poster-filme{
+    height: 12rem;
+    width: 8rem;
+    background-color: aquamarine;
+    border: 1px black solid;
+}
+
+/* Entrevistas e Making of */
+section.entrevista{
+    background-color: lightgray;
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    margin: auto;
+    flex-direction: column;
+}
+
+section.entrevista div.makingof{
     display: flex;
     flex-direction: row;
 }
 
-section.destaque h2{
-    align-self: start;
+section.entrevista button{
+    display: flex;
+    margin-right: 10px;
+    align-self: flex-end;
 }
 
-section.destaque select{
-    align-self: center;
-    
-}
-
-section.entrevista{
-    background-color: lightblue;
-}
-
+/* Livre 3 */
 section.novos-videos{
+    width: 40rem;
+    height: 30rem;
+    margin: auto;
+
     background-color: lightcoral;
 }
 
 aside.sobre-novos-videos{
+    width: 30rem;
+    height: 30rem;
+    margin: auto;
+
     background-color: lightcoral;
 }
 
+/* Livre 6 */
 section.propagandas{
+    width: 70rem;
+    height: 30rem;
+    margin: auto;
+
     background-color: lightgreen;
 }
