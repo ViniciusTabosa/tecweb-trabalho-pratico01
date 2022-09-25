@@ -63,12 +63,21 @@ section.entrevista{
     flex-direction: column;
 }
 
-
+section.entrevista h2{
+    margin-left: 13%;
+}
 
 section.entrevista div.makingof{
     display: flex;
     flex-direction: row;
+    margin: auto;
     justify-content: space-evenly;
+    width: 70rem;
+}
+
+section.entrevista div.info-makingof{
+    display: flex;
+    flex-direction: column;
 }
 
 section.entrevista button{
@@ -78,19 +87,28 @@ section.entrevista button{
 }
 
 /* Livre 3 */
-section.novos-videos{
+section.livre3{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+
+section.livre3 div.novos-videos{
+    margin: auto;
     width: 40rem;
     height: 30rem;
-    margin: auto;
-
-    background-color: lightcoral;
+    display: flex;
+    justify-content: left;
+    background-color: lemonchiffon;
 }
 
 aside.sobre-novos-videos{
     width: 30rem;
     height: 30rem;
     margin: auto;
-
+    display: flex;
+    flex-direction: column;
+    
     background-color: lightcoral;
 }
 
