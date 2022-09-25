@@ -63,9 +63,12 @@ section.entrevista{
     flex-direction: column;
 }
 
+
+
 section.entrevista div.makingof{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 section.entrevista button{
