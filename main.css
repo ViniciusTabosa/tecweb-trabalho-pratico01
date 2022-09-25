@@ -91,11 +91,13 @@ section.livre3{
     display: flex;
     flex-direction: row;
     background-color: bisque;
+    width: 70rem;
+    margin: auto;
 }
 
 section.livre3 div.novos-videos{
     margin: auto;
-    width: 40rem;
+    width: 30rem;
     height: 30rem;
     display: flex;
     justify-content: left;
@@ -103,7 +105,7 @@ section.livre3 div.novos-videos{
 }
 
 aside.sobre-novos-videos{
-    width: 30rem;
+    width: 20rem;
     height: 30rem;
     margin: auto;
     display: flex;
@@ -117,6 +119,26 @@ section.propagandas{
     width: 70rem;
     height: 30rem;
     margin: auto;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightgreen;
+}
+
+section.propagandas aside{
+    background-color: greenyellow;
+}
+
+section.propagandas aside.prop-esquerda{
+    
+}
+
+section.propagandas aside.prop-direita{
+
+}
+
+section.propagandas article{
+    background-color: limegreen;
+    display: flex;
+    flex-direction: column;
 }
