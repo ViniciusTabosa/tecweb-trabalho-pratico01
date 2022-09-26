@@ -8,33 +8,87 @@
     <title>Filmes e Séries</title>
 </head>
 <body>
+    <!-- Destaque -->
     <section class="destaque">
-        <h2>Em destaque</h2>
-        <select name="categoria" id="categoria-filmes">
-            <option value="todos">Todos</option>
-            <option value="aventura">Aventura</option>
-            <option value="romance">Romance</option>
-            <option value="comedia">Comédia</option>
-        </select>
-    </section>
+        <section class="menu-destaque">
+            <h2>Em destaque</h2>
+            <select name="categoria" id="categoria-filmes">
+                <option value="todos">Todos</option>
+                <option value="aventura">Aventura</option>
+                <option value="romance">Romance</option>
+                <option value="comedia">Comédia</option>
+            </select>
+        </section>
 
-    <section class="entrevista">
-        <h2>Entrevistas & Making of</h2>
+        <div class="destaque-filme">
+            <div class="poster-filme">1</div>
+            <div class="poster-filme">2</div>
+            <div class="poster-filme">3</div>
+            <div class="poster-filme">4</div>
+        </div>
         <button>Carregar mais filmes</button>
     </section>
 
-    <section class="novos-videos">
-        <!-- Livre 3 -->
-        <h2>Novos vídeos</h2>
-    </section>
-    <aside class="sobre-novos-videos">
-        <h3>Sobre</h3>
-        <h3>Editorial</h3>
-    </aside>
+    <!-- Entrevistas e Making of -->
+    <section class="entrevista">
+        <h2>Entrevistas & Making of</h2>
+        <div class="makingof">
+            <div class="video-makingof">
+                <iframe width="280" height="180" src="https://www.youtube.com/embed/Pw0Oclss3v4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="info-makingof">
+                    <h4>Filme:</h4>Capitão América
+                    <b>Diretor</b>
+                    <b>Roteiro</b> <b>Estreia</b>
+                </div>
+            </div>
+            
+            <div class="video-makingof">
+                <iframe width="280" height="180" src="https://www.youtube.com/embed/2kQzfng264w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="info-makingof">
+                    <h4>Filme:</h4> The Batman
+                    <b>Diretor:</b>
+                    <b>Roteiro:</b> <b>Estreia:</b>
+                </div>
+            </div>
 
+            <div class="video-makingof">
+                <iframe width="280" height="180" src="https://www.youtube.com/embed/zupJmQ9-Yv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="info-makingof">
+                    <h4>Filme:</h4>Viúva Negra
+                    <b>Diretor:</b>
+                    <b>Roteiro:</b> <b>Estreia:</b>
+                </div>
+            </div>
+        </div>
+        <button>Carregar mais filmes</button>
+    </section>
+
+    <!-- Livre 3 -->
+    <section class="livre3">
+        <div class="novos-videos">
+            <h2>Novos vídeos</h2>
+        </div>
+    
+        <aside class="sobre-novos-videos">
+            <h3>Sobre</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id expedita dolorum hic assumenda vel inventore ipsa, molestiae suscipit facere iusto veritatis nisi illo dolores, eum eveniet aspernatur quidem. Vel, provident.</p>
+            <h3>Editorial:</h3>
+            <h5>Redação:</h5>
+            <h5>Pesquisa:</h5>
+            <h5>Gerente Geral:</h5>
+            <h4>Redes sociais:</h4>
+        </aside>
+    </section>
+    <!-- Livre 6 -->
     <section class="propagandas">
-        <!-- Livre 6 -->
-        <h2>Propagandas</h2>
+        <!-- <h2>Propagandas</h2> -->
+        <aside class="prop-esquerda">Esquerda</aside>
+        <div class="prop-centrais">
+            <article class="prop-centro">Centro 1</article>
+            <article class="prop-centro">Centro 2</article>
+            <article class="prop-centro">Centro 3</article>
+        </div>
+        <aside class="prop-direita">Direita</aside>
     </section>
 </body>
 </html>
