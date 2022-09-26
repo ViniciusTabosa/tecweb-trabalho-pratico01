@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 /*Estilo Header*/
-@charset "UTF-8";
-
 *{
     margin: 0;
     padding: 0;
@@ -89,11 +87,7 @@ footer{
     margin-right: 25px;
 }
 
-
-
-
-
-
+/* Destaques */
 section.destaque{
     width: 70rem;
     height: 30rem;
