@@ -1,8 +1,99 @@
+@charset "UTF-8";
+
+/*Estilo Header*/
+@charset "UTF-8";
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
 }
 
-/* Destaque */
+@font-face {
+    font-family: 'Racing' ;
+    src: url('RacingSansOne-Regular.ttf') format('truetype');
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+header{
+   background-color: black;
+   height: 4rem;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+nav{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    position: relative;
+    color: white;
+    font-family: 'Racing', Times, serif;
+    font-size: 18px;
+}
+
+
+.set-logo{
+    display: flex;    
+    margin-left: 25px;
+}
+
+.set-search{
+    right: 150px;
+    top: 0px;
+    margin: 4px;
+    display: flex;
+    border: solid;
+    margin-right: 25px;
+}
+.input-search{
+    background-color: black ;
+    color: white;
+    display: flex;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+}
+
+.input-search::placeholder{
+    color: white;
+    font-family: 'Racing', Times, serif;
+}
+
+footer{
+    background-color: black;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    color: white;
+}
+
+.logo-rodape{
+    display: flex;    
+    margin-right: 25px;
+}
+
+
+
+
+
+
 section.destaque{
     width: 70rem;
     height: 30rem;
