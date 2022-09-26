@@ -78,6 +78,7 @@ section.entrevista div.makingof{
 section.entrevista div.info-makingof{
     display: flex;
     flex-direction: column;
+    
 }
 
 section.entrevista button{
@@ -130,7 +131,7 @@ section.propagandas aside{
 }
 
 section.propagandas aside.prop-esquerda{
-    
+ 
 }
 
 section.propagandas aside.prop-direita{
