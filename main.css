@@ -12,8 +12,13 @@
     src: url('RacingSansOne-Regular.ttf') format('truetype');
     
 }
+
+@font-face {
+    font-family: 'ZenDots' ;
+    src: url('ZenDots-Regular.ttf') format('truetype');
+}
 body{
-    height: 300vh;
+    height: 500vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -88,6 +93,102 @@ footer{
     display: flex;    
     margin-right: 25px;
 }
+
+/*Seção 7 - Formulário*/
+.section-form{
+    display: flex;
+    width: 70rem;
+    height: 35rem;
+    margin: auto;
+    
+}
+.section-form aside{
+    width: 40%;
+    height: 100%;
+    
+    display: flex;
+}
+
+
+.sectionarticleForm{
+    font-family: 'ZenDots',Times,serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 5px;
+}
+
+.img-section-form{
+    display: block;
+    margin: 20px auto;
+
+}
+.section-form form {
+    display: block;
+    width: 60%;
+    height: 100%;
+    background-image: url(midia/DCvsMarvel-opacidade34-672x480.png);
+}
+
+form label {
+    display: block;
+    padding:5px;
+}
+label{
+  text-align:left;
+  margin-left: 100px;
+  margin-top: 30px;
+  font-family: 'ZenDots', 'Times', serif;
+  font-size: 16px;
+
+}
+
+.input {
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    margin: 5px;
+    background: transparent;
+    border-bottom: 2px solid black;
+    font-family: 'ZenDots',Times,serif;
+    font-size: 16px;
+}
+
+#nome-input{
+    width: 200px;
+}
+
+#sobrenome-input{
+    width: 150px;
+}
+
+#tel-input{
+    width: 180px;
+}
+
+#email-input{
+    width: 190px;
+}
+
+#botao-input{
+    display: block;
+    margin: auto;
+    width:150px;
+    height:30px;
+    
+    border-radius: 25px ;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top: 45px;
+    background: #FBB321;
+    color: black;
+    font-family: 'ZenDots',Times,serif;
+}
+
+input:hover{
+    background-color: black 10%;
+}
+
 
 /* Destaques */
 section.destaque{
