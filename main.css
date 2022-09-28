@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    font-family: 'Racing' ;
 }
 
 @font-face {
@@ -87,6 +87,7 @@ footer{
     margin-right: 25px;
 }
 
+/* Vinicius */
 /* Destaques */
 section.destaque{
     width: 70rem;
@@ -185,9 +186,27 @@ section.livre3 div.novos-videos{
     margin: auto;
     width: 30rem;
     height: 30rem;
+    padding: 1%;
     display: flex;
-    justify-content: left;
+    flex-direction: column;
     background-color: lemonchiffon;
+}
+
+section.livre3 div.novos-videos h2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+section.livre3 div.novos-videos div.video-livre3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+section.livre3 div.video-livre3 iframe{
+    margin-bottom: 1%;
 }
 
 aside.sobre-novos-videos{
@@ -196,37 +215,46 @@ aside.sobre-novos-videos{
     margin: auto;
     display: flex;
     flex-direction: column;
+    padding: 1%;
     
     background-color: lightcoral;
 }
 
 /* Livre 6 */
 section.propagandas{
-    width: 70rem;
-    height: 30rem;
+    width: 83%;
+    height: 50%;
     margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     background-color: lightgreen;
 }
 
 section.propagandas aside{
     background-color: greenyellow;
+    width: 20%;
+    margin: 1%;
 }
 
-section.propagandas aside.prop-esquerda{
- 
+section.propagandas aside.prop-laterais{
+    padding: 2%;
+    text-align: center;
 }
 
-section.propagandas aside.prop-direita{
-
-}
-
-section.propagandas article{
-    background-color: limegreen;
+section.propagandas div.prop-centrais{
     display: flex;
     flex-direction: column;
+    margin: 2%;
+}
+
+section.propagandas article.prop-centro {
+    background-color: lightcoral;
+    display: flex;
+    margin: auto;
+    border: 1px black solid;
+    flex-direction: column;
+    padding: 2%;
+    margin-bottom: 1%;
 }
 
 
