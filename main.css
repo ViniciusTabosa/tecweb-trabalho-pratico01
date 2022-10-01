@@ -89,10 +89,75 @@ footer{
 
 /* Vinicius */
 /* Destaques */
+@media (max-width: 479px){
+  section.destaque{
+    display: flex;
+    width: 90%;
+    border: 1px black solid;
+    margin: auto;
+    /* background-color: bisque; */
+    flex-direction: column;
+  }
+
+  section.destaque button{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 6%;
+    margin-bottom: 1%;
+  }
+
+  section.menu-destaque{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    padding-top: 1%;
+    /* background-color: darkseagreen; */
+    /* border: 1px black solid;   */
+  }
+
+  section.menu-destaque h2{
+    /* margin-left: 10px; */
+    display: flex;
+  }
+
+  section.menu-destaque select{
+    display: flex;
+    /* align-self: flex-end; */
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 30%;
+    /* margin-right: 10px; */
+  }
+
+  div.destaque-filme{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+    /* margin-top: 5%; */
+    margin-bottom: 2%;
+    
+  }
+
+  div.poster-filme{
+    width: 180px;
+    height: 225px;
+    margin-bottom: 2%;
+    background-color: aquamarine;
+    border: 1px black solid;
+  }
+}
+
 @media (min-width: 480px) and (max-width: 768px){
   section.destaque{
     display: flex;
-    width: 80%;
+    width: 90%;
     border: 1px black solid;
     margin: auto;
     /* background-color: bisque; */
@@ -145,8 +210,8 @@ footer{
   }
 
   div.poster-filme{
-    height: 12rem;
-    width: 8rem;
+    width: 180px;
+    height: 225px;
     margin-bottom: 2%;
     background-color: aquamarine;
     border: 1px black solid;
@@ -156,7 +221,7 @@ footer{
 @media (min-width: 769px) and (max-width: 1279px){
   section.destaque{
     display: flex;
-    width: 80%;
+    width: 90%;
     border: 1px black solid;
     /* height: 30rem; */
     margin: auto;
@@ -203,12 +268,13 @@ footer{
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
-    
   }
 
   div.poster-filme{
-    height: 12rem;
-    width: 8rem;
+    width: 144px;
+    height: 180px;
+    display: flex;
+    
     background-color: aquamarine;
     border: 1px black solid;
   }
@@ -270,8 +336,9 @@ footer{
   }
 
   div.poster-filme{
-    height: 12rem;
-    width: 8rem;
+    width: 180px;
+    height: 225px;
+
     background-color: aquamarine;
     border: 1px black solid;
   }
