@@ -18,22 +18,22 @@
     src: url('ZenDots-Regular.ttf') format('truetype');
 }
 body{
-    height: 500vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+   
 }
 
 header{
    background-color: black;
+   width: 100%;
    height: 4rem;
    display: flex;
    justify-content: space-between;
-
 }
 
-nav{   
+header nav{   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,21 +44,21 @@ nav{
     font-size: 18px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: white;
 }
-.set-logo{
+header .set-logo{
     display: flex;    
     margin-left: 30px;
 }
 
-.set-search{
+header .set-search{
     display: flex;
     border: solid;
     margin-right: 30px;
 }
-.input-search{
+header .input-search{
     background-color: black ;
     color: white;
     display: flex;
@@ -68,8 +68,7 @@ a{
    font-size: 18px;
    width: 150px;
 }
-
-.input-search::placeholder{
+header .input-search::placeholder{
     color: white;
     font-family: 'Racing', Times, serif;
 }
@@ -94,13 +93,22 @@ footer{
     margin-right: 25px;
 }
 
+/*Seção 4 - Top 10 vídeos*/
+
+.section-novidades{
+    display: flex;
+    background-color: rgb(163, 113, 53);
+    width: 70rem;
+    height: 30rem;
+    margin: auto;
+}
+
 /*Seção 7 - Formulário*/
 .section-form{
     display: flex;
     width: 70rem;
-    height: 35rem;
+    height: 30rem;
     margin: auto;
-    
 }
 .section-form aside{
     width: 40%;
@@ -112,9 +120,9 @@ footer{
 
 .sectionarticleForm{
     font-family: 'ZenDots',Times,serif;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
-    margin: 5px;
+    margin-top: 18px;
     margin-bottom: 5px;
 }
 
@@ -128,6 +136,7 @@ footer{
     width: 60%;
     height: 100%;
     background-image: url(midia/DCvsMarvel-opacidade34-672x480.png);
+    background-repeat: no-repeat ;
 }
 
 form label {
@@ -148,7 +157,7 @@ label{
     display: inline-block;
     border: 0;
     outline: 0;
-    margin: 5px;
+    margin: 0px;
     background: transparent;
     border-bottom: 2px solid black;
     font-family: 'ZenDots',Times,serif;
@@ -157,18 +166,35 @@ label{
 
 #nome-input{
     width: 218.77px;
+    margin-bottom: 0px;
 }
 
-#sobrenome-input{
-    width: 160px;
+#link-input{
+    width: 234.66px;
 }
 
-#tel-input{
+#diretor-input{
+    width: 289.27px;
+}
+
+#ano-input{
     width: 184.63px;
 }
 
-#email-input{
-    width: 218.94px;
+#elenco-textarea{
+    width: 464px;
+    height: 100px;
+    resize: none;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'ZenDots', Times, serif;
+    font-size: 16px;
 }
 
 
@@ -181,7 +207,7 @@ label{
     border-radius: 25px ;
     font-size: 18px;
     font-weight:bold;
-    margin-top: 45px;
+    margin-top: 35px;
     background: #FBB321;
     color: black;
     font-family: 'ZenDots',Times,serif;
