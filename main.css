@@ -327,7 +327,7 @@ label{
   }
 }
 
-@media (min-width: 480px) and (max-width: 768px){
+@media (min-width: 480px) and (max-width: 769px){
   section.destaque{
     display: flex;
     width: 90%;
@@ -391,7 +391,7 @@ label{
   }
 }
 
-@media (min-width: 769px) and (max-width: 1279px){
+@media (min-width: 780px) and (max-width: 1279px){
   section.destaque{
     display: flex;
     width: 90%;
@@ -519,14 +519,6 @@ label{
 
 /* Entrevistas e Making of */
 @media (max-width: 479px){
-
-}
-
-@media (min-width: 480px) and (max-width: 768px){
-
-}
-
-@media (min-width: 769px) and (max-width: 1279px){
   section.entrevista{
     width: 100%;
     height: 30%;
@@ -539,7 +531,109 @@ label{
   }
 
   section.entrevista h2{
-      margin-left: 13%;
+      display: flex;
+      align-self: center;
+      /* margin-left: 14%; */
+      /* margin-bottom: 2%; */
+  }
+
+  section.entrevista div.makingof{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: auto;
+      /* width: 50%; */ 
+  }
+
+  section.entrevista div.makingof div.video-makingof{
+    margin-bottom: 5%;
+  }
+
+  section.entrevista div.makingof div.video-makingof iframe{
+    width: 200px;
+    height: 150px;
+  }
+
+  section.entrevista div.info-makingof{
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      font-size: small;
+  }
+
+  section.entrevista button{
+    position: relative;
+    left: 65%;
+    margin-top: 1%;
+    
+  }
+}
+
+@media (min-width: 480px) and (max-width: 769px){
+  section.entrevista{
+    width: 100%;
+    height: 30%;
+    background-color: lightgray;
+    display: flex;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-direction: column;
+  }
+
+  section.entrevista h2{
+      display: flex;
+      align-self: center;
+      /* margin-left: 14%; */
+      /* margin-bottom: 2%; */
+  }
+
+  section.entrevista div.makingof{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: auto;
+      /* width: 50%; */ 
+  }
+
+  section.entrevista div.makingof div.video-makingof{
+    margin-bottom: 5%;
+  }
+
+  section.entrevista div.makingof div.video-makingof iframe{
+    width: 350px;
+    height: 250px;
+  }
+
+  section.entrevista div.info-makingof{
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      font-size: small;
+  }
+
+  section.entrevista button{
+    position: relative;
+    left: 65%;
+    margin-top: 1%;
+    
+  }
+}
+
+@media (min-width: 780px) and (max-width: 1279px){
+  section.entrevista{
+    width: 100%;
+    height: 30%;
+    background-color: lightgray;
+    display: flex;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-direction: column;
+  }
+
+  section.entrevista h2{
+      margin-left: 14%;
       margin-bottom: 2%;
   }
 
@@ -547,14 +641,9 @@ label{
       display: flex;
       flex-direction: row;
       margin: auto;
-      justify-content: space-evenly;
-      width: 50%;
+      justify-content: space-around;
+      /* width: 50%; */
   }
-
-  /* section.entrevista div.makingof div.video-makingof{
-    margin-left: -10%;
-    margin-right: -10%;
-  } */
 
   section.entrevista div.makingof div.video-makingof iframe{
     width: 200px;
@@ -562,6 +651,7 @@ label{
   }
 
   section.entrevista div.info-makingof{
+      width: 85%;
       display: flex;
       flex-direction: column;
       font-size: small;
@@ -587,7 +677,7 @@ label{
   }
 
   section.entrevista h2{
-      margin-left: 13%;
+      margin-left: 14%;
       margin-bottom: 2%;
   }
 
@@ -611,42 +701,6 @@ label{
     margin-top: 1%;
   }
 }
-
-/* section.entrevista{
-    width: 100%;
-    height: 30%;
-    background-color: lightgray;
-    display: flex;
-    margin: auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    flex-direction: column;
-}
-
-section.entrevista h2{
-    margin-left: 13%;
-    margin-bottom: 2%;
-}
-
-section.entrevista div.makingof{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    justify-content: space-evenly;
-    width: 70rem;
-}
-
-section.entrevista div.info-makingof{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-section.entrevista button{
-  position: relative;
-  left: 77%;
-  margin-top: 1%;
-} */
 
 /* Livre 3 */
 section.livre3{
