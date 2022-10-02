@@ -96,11 +96,51 @@ footer{
 /*Seção 4 - Top 10 vídeos*/
 
 .section-novidades{
-    display: flex;
-    background-color: rgb(163, 113, 53);
-    width: 70rem;
-    height: 30rem;
-    margin: auto;
+  display: flex;
+  border: 2px solid blue;
+  width: 70rem;
+  height: 30rem;
+  margin: auto;
+}
+.h3-novidades{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+.section-novidades .div-novidades{
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+  height: 100%;
+  border: 2px solid orange;
+}
+
+.div-novidades .novidade{
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  width: 100% ;
+  height: 7rem;
+}
+
+
+.article-novidades{
+  margin-left: 10px;
+}
+.article-novidades h4, p{
+   text-align: left;
+}
+.article-novidades p{
+   font-size: 15px;
+}
+
+hr{
+  width:558px;
+  margin-bottom: 15px;
+  background-color: black;
 }
 
 /*Seção 7 - Formulário*/
