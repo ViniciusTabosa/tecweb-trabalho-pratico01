@@ -745,8 +745,15 @@ aside.sobre-novos-videos{
     display: flex;
     flex-direction: column;
     padding: 1%;
-    
     background-color: lightcoral;
+}
+
+aside.sobre-novos-videos div.aside-redes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    width: 10%;
+    height: 10%;
 }
 
 /* Livre 6 */
