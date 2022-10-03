@@ -266,9 +266,7 @@ label{
   section.destaque{
     display: flex;
     width: 90%;
-    border: 1px black solid;
     margin: auto;
-    /* background-color: bisque; */
     flex-direction: column;
   }
 
@@ -284,36 +282,28 @@ label{
     width: 80%;
     display: flex;
     flex-direction: column;
-    
     justify-content: space-between;
     padding-top: 1%;
-    /* background-color: darkseagreen; */
-    /* border: 1px black solid;   */
   }
 
   section.menu-destaque h2{
-    /* margin-left: 10px; */
     display: flex;
   }
 
   section.menu-destaque select{
     display: flex;
-    /* align-self: flex-end; */
     margin-top: 1%;
     margin-bottom: 2%;
     width: 30%;
-    /* margin-right: 10px; */
   }
 
   div.destaque-filme{
     width: 90%;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     align-items: center;
     margin: auto;
     justify-content: space-evenly;
-    /* margin-top: 5%; */
     margin-bottom: 2%;
     
   }
@@ -327,13 +317,11 @@ label{
   }
 }
 
-@media (min-width: 480px) and (max-width: 769px){
+@media (min-width: 480px) and (max-width: 779px){
   section.destaque{
     display: flex;
     width: 90%;
-    border: 1px black solid;
     margin: auto;
-    /* background-color: bisque; */
     flex-direction: column;
   }
 
@@ -349,25 +337,19 @@ label{
     width: 80%;
     display: flex;
     flex-direction: column;
-    
     justify-content: space-between;
     padding-top: 1%;
-    /* background-color: darkseagreen; */
-    /* border: 1px black solid;   */
   }
 
   section.menu-destaque h2{
-    /* margin-left: 10px; */
     display: flex;
   }
 
   section.menu-destaque select{
     display: flex;
-    /* align-self: flex-end; */
     margin-top: 1%;
     margin-bottom: 2%;
     width: 30%;
-    /* margin-right: 10px; */
   }
 
   div.destaque-filme{
@@ -377,7 +359,6 @@ label{
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-evenly;
-    /* margin-top: 5%; */
     margin-bottom: 2%;
     
   }
@@ -395,10 +376,7 @@ label{
   section.destaque{
     display: flex;
     width: 90%;
-    border: 1px black solid;
-    /* height: 30rem; */
     margin: auto;
-    /* background-color: bisque; */
     flex-direction: column;
     
   }
@@ -417,12 +395,9 @@ label{
     flex-direction: row;
     justify-content: space-between;
     padding-top: 1%;
-    /* background-color: darkseagreen; */
-    /* border: 1px black solid;   */
   }
 
   section.menu-destaque h2{
-    /* margin-left: 10px; */
     display: flex;
   }
 
@@ -430,7 +405,6 @@ label{
     display: flex;
     align-self: center;
     width: 15%;
-    /* margin-right: 10px; */
   }
 
   div.destaque-filme{
@@ -447,7 +421,6 @@ label{
     width: 144px;
     height: 180px;
     display: flex;
-    
     background-color: aquamarine;
     border: 1px black solid;
   }
@@ -456,11 +429,8 @@ label{
 @media (min-width: 1280px){
   section.destaque{
     display: flex;
-    width: 80%;
-    border: 1px black solid;
-    /* height: 30rem; */
+    width: 83%;
     margin: auto;
-    /* background-color: bisque; */
     flex-direction: column;
     
   }
@@ -481,12 +451,9 @@ label{
     flex-direction: row;
     justify-content: space-between;
     padding-top: 1%;
-    /* background-color: darkseagreen; */
-    /* border: 1px black solid;   */
   }
 
   section.menu-destaque h2{
-    /* margin-left: 10px; */
     display: flex;
   }
 
@@ -494,7 +461,6 @@ label{
     display: flex;
     align-self: center;
     width: 15%;
-    /* margin-right: 10px; */
   }
 
   div.destaque-filme{
@@ -533,8 +499,6 @@ label{
   section.entrevista h2{
       display: flex;
       align-self: center;
-      /* margin-left: 14%; */
-      /* margin-bottom: 2%; */
   }
 
   section.entrevista div.makingof{
@@ -542,7 +506,6 @@ label{
       flex-wrap: wrap;
       flex-direction: column;
       margin: auto;
-      /* width: 50%; */ 
   }
 
   section.entrevista div.makingof div.video-makingof{
@@ -569,7 +532,7 @@ label{
   }
 }
 
-@media (min-width: 480px) and (max-width: 769px){
+@media (min-width: 480px) and (max-width: 779px){
   section.entrevista{
     width: 100%;
     height: 30%;
@@ -584,8 +547,6 @@ label{
   section.entrevista h2{
       display: flex;
       align-self: center;
-      /* margin-left: 14%; */
-      /* margin-bottom: 2%; */
   }
 
   section.entrevista div.makingof{
@@ -593,7 +554,6 @@ label{
       flex-wrap: wrap;
       flex-direction: column;
       margin: auto;
-      /* width: 50%; */ 
   }
 
   section.entrevista div.makingof div.video-makingof{
@@ -642,7 +602,6 @@ label{
       flex-direction: row;
       margin: auto;
       justify-content: space-around;
-      /* width: 50%; */
   }
 
   section.entrevista div.makingof div.video-makingof iframe{
@@ -703,57 +662,294 @@ label{
 }
 
 /* Livre 3 */
-section.livre3{
-    display: flex;
-    flex-direction: row;
-    background-color: bisque;
-    width: 70rem;
-    margin: auto;
-}
-
-section.livre3 div.novos-videos{
-    margin: auto;
-    width: 30rem;
-    height: 30rem;
-    padding: 1%;
+@media (max-width: 479px){
+  section.livre3{
     display: flex;
     flex-direction: column;
-    background-color: lemonchiffon;
-}
-
-section.livre3 div.novos-videos h2{
-    display: flex;
-    justify-content: center;
     margin: auto;
-}
-
-section.livre3 div.novos-videos div.video-livre3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-}
-
-section.livre3 div.video-livre3 iframe{
+    margin-top: 1%;
     margin-bottom: 1%;
+  }
+
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 90%;
+      height: 30rem;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 2%;
+      width: 110%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 90%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+  }
+
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2.5%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
 }
 
-aside.sobre-novos-videos{
-    width: 20rem;
-    height: 30rem;
-    margin: auto;
+@media (min-width: 480px) and (max-width: 779px){
+  section.livre3{
     display: flex;
     flex-direction: column;
-    padding: 1%;
-    background-color: lightcoral;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 90%;
+      height: 30rem;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 2%;
+      width: 110%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 90%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+  }
+
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2.5%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
 }
 
-aside.sobre-novos-videos div.aside-redes{
+@media (min-width: 780px) and (max-width: 1279px){
+  section.livre3{
     display: flex;
     flex-direction: row;
-    margin-top: 2%;
-    width: 10%;
-    height: 10%;
+    width: 83%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 45%;
+      height: 30rem;
+      padding: 1%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 5%;
+      width: 90%;
+      height: 70%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 50%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 1%;
+  }
+
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2.5%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
+}
+
+@media (min-width: 1280px){
+  section.livre3{
+      display: flex;
+      flex-direction: row;
+      width: 83%;
+      margin: auto;
+      margin-top: 1%;
+      margin-bottom: 1%;
+  }
+
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 40%;
+      height: 30rem;
+      padding: 1%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      margin: auto;
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 45%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 1%;
+  }
+
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: small;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
 }
 
 /* Livre 6 */
