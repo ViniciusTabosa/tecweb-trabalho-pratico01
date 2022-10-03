@@ -18,6 +18,7 @@
     font-family: 'ZenDots' ;
     src: url('ZenDots-Regular.ttf') format('truetype');
 }
+
 body{
     height: 100%;
     display: flex;
@@ -50,6 +51,7 @@ header a{
     text-decoration: none;
     color: #FBB321;
 }
+
 header .set-logo{
     display: flex;    
     margin-left: 30px;
@@ -60,6 +62,7 @@ header .set-search{
     border: solid #141D23;
     margin-right: 30px;
 }
+
 header .input-search{
     background-color: #141D23 ;
     color: white;
@@ -69,6 +72,7 @@ header .input-search{
     font-size: 18px;
     width: 150px;
 }
+
 header .input-search::placeholder{
     color: white;
 }
@@ -104,6 +108,7 @@ footer{
   height: 40rem;
   margin: auto;
 }
+
 .h2-novidades{
   margin-top: px;
   margin-left: 15px;
@@ -111,6 +116,7 @@ footer{
   font-size: 25px;
   font-weight:lighter ;
 }
+
 .aside-favoritos .h2-novidades{
   margin-top: 5px;
   margin-left: 15px;
@@ -118,6 +124,7 @@ footer{
   font-weight: lighter;
   color: black;
 }
+
 .section-novidades .div-novidades{
   display: flex;
   flex-direction: column;
@@ -140,6 +147,7 @@ footer{
 .article-novidades{
   margin-left: 10px;
 }
+
 .article-novidades p{
    color: white;
    font-size: 18px;
@@ -153,6 +161,7 @@ footer{
   text-align: justify;
   font-weight: lighter;
 }
+
 .article-novidades p{
    font-size: 15px;
 }
@@ -160,6 +169,7 @@ footer{
 hr{
   margin-left: 10px;
 }
+
 .button-novidades{
   display: inline-block;
   border: 2xs solid black;
@@ -183,6 +193,7 @@ hr{
   box-shadow: 2px 2px 10px black;
     cursor: pointer;
 }
+
 .button-novidades1:hover{
   box-shadow: 2px 2px 10px black;
     cursor: pointer;
@@ -196,6 +207,7 @@ hr{
   border-radius: 15px;
   background-color: #F6AE2D;
 }
+
 .p-novidades{
   margin-left: 36px;
   margin-top: 15px;
@@ -213,6 +225,7 @@ hr{
 .div-favoritos{
   margin-left: 20px;
 }
+
 .favoritos-novidades{
   
   width: 120px;
@@ -221,13 +234,141 @@ hr{
   padding: 5px;
 }
 
+/*Seção 5 - Fórum*/
+.forum{
+  display: flex;
+  width: 70rem;
+  height: 47rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  background-color: #81A684;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.forum h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #FBB321;
+}
+.forum .h2-div-forum{
+  margin-top: 20px;
+  height: 5%;
+}
+
+.forum .div-forum{
+  
+  margin-top: 10px;
+  height:95%;
+  width: 100%;
+}
+.div-forum .article-forum{
+  display: flex;
+  background-color: #B7C3F3;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  height: 19%;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.article-forum .img-forum{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+
+.nome-usuario span{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color:  #2E86AB;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.nivel-usuario span{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6C0E23;
+  font-weight: lighter;
+  font-size: 18px;
+  
+}
+
+.foto-perfil p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color:white;
+}
+
+.img-perfil{
+ display: block;
+ margin: auto;
+}
+
+.article-forum .postagem-forum{
+  width: 70% ;
+}
+
+.postagem-forum .dia-postagem{
+  height: 15%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+}
+
+.postagem-forum .comentario-postagem{
+  height: 55%;
+  font-size: 20px;
+}
+.comentario-postagem p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 3px;
+}
+.button-comentario{
+  border-radius: 20px;
+  height: 25px;
+  width: 120px ;
+}
+.button-comentario:hover{
+  background-color:white;
+  cursor: pointer;
+}
+
+.postagem-forum .filme-forum{
+  height: 20%;
+  font-size: 20px;
+}
+.filme-forum{
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.filme-forum span{
+  font-size: 20px;
+}
 /*Seção 7 - Formulário*/
 .section-form{
     display: flex;
     width: 70rem;
     height: 30rem;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 .section-form aside{
     width: 40%;
     height: 100%;
@@ -250,6 +391,7 @@ hr{
     margin: 20px auto;
 
 }
+
 .section-form form {
     display: block;
     width: 60%;
@@ -262,6 +404,7 @@ form label {
     display: block;
     padding:5px;
 }
+
 label{
   text-align:left;
   margin-left: 100px;
