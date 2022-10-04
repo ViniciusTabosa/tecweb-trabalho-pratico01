@@ -1168,50 +1168,6 @@ label{
   }
 }
 
-/* section.propagandas{
-    width: 90%;
-    height: 50%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    
-}
-
-section.propagandas aside.prop-laterais img{
-    width: 290px;
-    height: 400px;
-}
-
-section.propagandas div.prop-centrais{
-    display: flex;
-    flex-direction: column;
-    margin: 2%;
-}
-
-div.prop-centrais article.prop-centrais{
-  display: flex;
-  flex-direction: column;
-}
-
-section.propagandas article.prop-centro {
-    display: flex;
-    margin: auto;
-    border: 1px #1A8CD8  solid;
-    border-radius: 10px;
-    flex-direction: column;
-    padding: 2%;
-    margin-bottom: 1%;
-}
-
-section.propagandas article.prop-centro span{
-  display: inline-flex;
-  
-}
-
-article.prop-centro img.icone-prop{
-  width: 5%;
-} */
-
 section {
   margin: 20px 0;
 }
