@@ -312,7 +312,6 @@ label{
     width: 180px;
     height: 225px;
     margin-bottom: 2%;
-    background-color: aquamarine;
     border: 1px black solid;
   }
 }
@@ -953,24 +952,234 @@ label{
 }
 
 /* Livre 6 */
-section.propagandas{
-    width: 83%;
+@media (max-width: 479px){
+  section.propagandas{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-retrato{
+      display: none;
+  }
+
+  section.propagandas aside.prop-laterais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.propagandas div.prop-centrais{
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+  }
+
+  div.prop-centrais article.prop-centrais{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.propagandas article.prop-centro {
+      display: flex;
+      height: 5rem;
+      margin: auto;
+      border: 1px #1A8CD8  solid;
+      border-radius: 10px;
+      flex-direction: column;
+      padding: 2%;
+      margin-bottom: 1%;
+      font-size: 80%;
+  }
+
+  section.propagandas article.prop-centro span{
+    display: inline-flex;
+    
+  }
+
+  article.prop-centro img.icone-prop{
+    width: 5%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 779px){
+  section.propagandas{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-retrato{
+      display: none;
+  }
+
+  section.propagandas aside.prop-laterais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.propagandas div.prop-centrais{
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+  }
+
+  div.prop-centrais article.prop-centrais{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.propagandas article.prop-centro {
+      display: flex;
+      height: 5rem;
+      margin: auto;
+      border: 1px #1A8CD8  solid;
+      border-radius: 10px;
+      flex-direction: column;
+      padding: 2%;
+      margin-bottom: 1%;
+      font-size: 60%;
+  }
+
+  section.propagandas article.prop-centro span{
+    display: inline-flex;
+    
+  }
+
+  article.prop-centro img.icone-prop{
+    width: 5%;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 1279px){
+  section.propagandas{
+    width: 90%;
     height: 50%;
     margin: auto;
     display: flex;
     flex-direction: row;
-    background-color: lightgreen;
+    
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-retrato{
+      width: 200px;
+      height: 301px;
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-paisagem{
+    display: none;
+  }
+
+  section.propagandas aside.prop-laterais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  section.propagandas div.prop-centrais{
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+  }
+
+  div.prop-centrais article.prop-centrais{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.propagandas article.prop-centro {
+      display: flex;
+      height: 5rem;
+      margin: auto;
+      border: 1px #1A8CD8  solid;
+      border-radius: 10px;
+      flex-direction: column;
+      padding: 2%;
+      margin-bottom: 1%;
+      font-size: 80%;
+  }
+
+  section.propagandas article.prop-centro span{
+    display: inline-flex;
+    
+  }
+
+  article.prop-centro img.icone-prop{
+    width: 5%;
+  }
 }
 
-section.propagandas aside{
-    background-color: greenyellow;
-    width: 20%;
-    margin: 1%;
+@media (min-width: 1280px){
+  section.propagandas{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-retrato{
+      width: 290px;
+      height: 400px;
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-paisagem{
+    display: none;
+  }
+
+  section.propagandas div.prop-centrais{
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+  }
+
+  div.prop-centrais article.prop-centrais{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.propagandas article.prop-centro {
+      display: flex;
+      margin: auto;
+      border: 1px #1A8CD8  solid;
+      border-radius: 10px;
+      flex-direction: column;
+      padding: 2%;
+      margin-bottom: 1%;
+  }
+
+  section.propagandas article.prop-centro span{
+    display: inline-flex;
+    
+  }
+
+  article.prop-centro img.icone-prop{
+    width: 5%;
+  }
 }
 
-section.propagandas aside.prop-laterais{
-    padding: 2%;
-    text-align: center;
+/* section.propagandas{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+section.propagandas aside.prop-laterais img{
+    width: 290px;
+    height: 400px;
 }
 
 section.propagandas div.prop-centrais{
@@ -979,17 +1188,29 @@ section.propagandas div.prop-centrais{
     margin: 2%;
 }
 
+div.prop-centrais article.prop-centrais{
+  display: flex;
+  flex-direction: column;
+}
+
 section.propagandas article.prop-centro {
-    background-color: lightcoral;
     display: flex;
     margin: auto;
-    border: 1px black solid;
+    border: 1px #1A8CD8  solid;
+    border-radius: 10px;
     flex-direction: column;
     padding: 2%;
     margin-bottom: 1%;
 }
 
+section.propagandas article.prop-centro span{
+  display: inline-flex;
+  
+}
 
+article.prop-centro img.icone-prop{
+  width: 5%;
+} */
 
 section {
   margin: 20px 0;
