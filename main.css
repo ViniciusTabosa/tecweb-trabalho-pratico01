@@ -721,10 +721,21 @@ section {
 
 /* thiago */
 
+.destacar {
+  color: #333;
+}
+
+.lancamentos {
+  background: #e7e7e7;
+  border-radius: 4px;
+  color: #777;
+}
+
 .lancamentos h1 {
   text-align: center;
   margin: 40px auto;
-  font-family: sans-serif;
+  font-size: 2rem;
+  color: #333;
 }
 
 .lancamentos-wrapper {
@@ -744,10 +755,12 @@ section {
   height: 420px;
   display: block;
   margin: 0 auto;
+  border: 0px;
+  border-radius: 4px;
 }
 
 .lancamentos-descricao {
-  margin: 20px 50px;
+  margin: 0 50px;
   align-content: center;
   justify-self: center;
 }
@@ -766,9 +779,10 @@ section {
 }
 
 .avaliacoes h1 {
+  font-size: 2rem;
   text-align: center;
   margin: 40px auto;
-  font-family: sans-serif;
+  color: #333;
 }
 
 @media (min-width: 768px) {
@@ -777,14 +791,26 @@ section {
   }
 }
 
+.avaliacoes a {
+  margin: 10px auto;
+  display: block;
+  color: #333;
+  background: #e7e7e7;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
 .avaliacao {
   display: grid;
   grid-template-columns: 2fr 8fr;
+  color: #777;
 }
 
 .avaliacao h2 {
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 10px;
+  color: #333;
 }
 
 .top-videos {
@@ -793,6 +819,9 @@ section {
 
 .top-videos h1 {
   text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin: 40px auto;
 }
 
 .top-videos-wrapper {
@@ -883,4 +912,87 @@ section {
 .top1 {
   background-image: url(./midia/top1.jpeg);
   background-repeat: no-repeat;
+}
+
+.comunidade {
+  background: #c7c7c7;
+}
+
+.comunidade h1 {
+  text-align: center;
+  margin: 40px auto;
+  font-size: 2rem;
+  color: #333;
+}
+
+.comunidade-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 300px;
+  column-gap: 10px;
+  row-gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .comunidade-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.video {
+  border: 1px solid black;
+  border-radius: 4px;
+  background: #252525;
+  height: 100%;
+  text-align: center;
+}
+.video a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #9400d3;
+}
+
+.video p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #777;
+}
+
+.video .minutagem {
+  color: #c7c7c7;
+  margin: 0 10px;
+  font-family: sans-serif;
+  font-size: 0.75em;
+}
+
+.video1 img {
+  height: 60%;
+  width: 80%;
+}
+
+.video2 img {
+  height: 60%;
+  width: 80%;
+}
+
+.video3 img {
+  height: 60%;
+  width: 80%;
+}
+
+.video4 img {
+  height: 60%;
+  width: 80%;
+}
+
+.video5 img {
+  height: 60%;
+  width: 80%;
+}
+
+.video6 img {
+  height: 60%;
+  width: 80%;
 }
