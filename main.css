@@ -2370,7 +2370,7 @@ label{
   section.entrevista{
     width: 100%;
     height: 30%;
-    background-color: #F4FFF8;
+    background-color: lightgray;
     display: flex;
     margin: auto;
     padding-top: 2%;
@@ -2416,43 +2416,6 @@ label{
 
 @media (min-width: 480px) and (max-width: 779px){
   section.entrevista{
-      width: 100%;
-      height: 30%;
-      background-color: #99A1A6;
-      display: flex;
-      margin: auto;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      flex-direction: column;
-  }
-
-  section.entrevista h2{
-      margin-left: 13%;
-      margin-bottom: 2%;
-  }
-
-  section.entrevista div.makingof{
-      display: flex;
-      flex-direction: row;
-      margin: auto;
-      justify-content: space-evenly;
-      width: 70rem;
-  }
-
-  section.entrevista div.info-makingof{
-      display: flex;
-      flex-direction: column;
-      
-  }
-
-  section.entrevista button{
-    position: relative;
-    left: 77%;
-    margin-top: 1%;
-  }
-}
-
-/* section.entrevista{
     width: 100%;
     height: 30%;
     background-color: lightgray;
@@ -2535,23 +2498,23 @@ label{
       font-size: small;
   }
 
-  section.entrevista button {
+  section.entrevista button{
     position: relative;
     left: 77%;
     margin-top: 1%;
   }
 }
 
-@media (min-width: 1280px) {
-  section.entrevista {
-    width: 100%;
-    height: 30%;
-    background-color: lightgray;
-    display: flex;
-    margin: auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    flex-direction: column;
+@media (min-width: 1280px){
+  section.entrevista{
+      width: 100%;
+      height: 30%;
+      background-color: lightgray;
+      display: flex;
+      margin: auto;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      flex-direction: column;
   }
 
   section.entrevista h2{
@@ -2559,20 +2522,21 @@ label{
       margin-bottom: 2%;
   }
 
-  section.entrevista div.makingof {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    justify-content: space-evenly;
-    width: 70rem;
+  section.entrevista div.makingof{
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      justify-content: space-evenly;
+      width: 70rem;
   }
 
-  section.entrevista div.info-makingof {
-    display: flex;
-    flex-direction: column;
+  section.entrevista div.info-makingof{
+      display: flex;
+      flex-direction: column;
+      
   }
 
-  section.entrevista button {
+  section.entrevista button{
     position: relative;
     left: 77%;
     margin-top: 1%;
@@ -2580,73 +2544,157 @@ label{
 }
 
 /* Livre 3 */
-.novos-videos h2{
-  font-weight: lighter;
-  font-size: 25px;
-  color: #FBB321;
+@media (max-width: 479px){
+  section.livre3{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 90%;
+      height: 30rem;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 2%;
+      width: 110%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 90%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+  }
+
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2.5%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
 }
 
-.sobre-novos-videos h3{
-  font-size: 23px;
-  font-weight: lighter;
-  color: #FBB321;
+@media (min-width: 480px) and (max-width: 779px){
+  section.livre3{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 90%;
+      height: 30rem;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 2%;
+      width: 110%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 90%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+  }
+
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2.5%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
 }
 
-.sobre-novos-videos h5{
-  font-size: 22px;
-  font-weight: lighter;
-  color: #FBB321;
-}
-
-.sobre-novos-videos h4{
-  font-size: 20px;
-  font-weight: lighter;
-  color: #FBB321;
-}
-.sobre-novos-videos p{
-  font-size: 18px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-}
-
-.sobre-novos-videos span{
-  font-size: 18px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-}
-
-section.livre3{
+@media (min-width: 780px) and (max-width: 1279px){
+  section.livre3{
     display: flex;
     flex-direction: row;
-    /*background-color: bisque;*/
-    width: 70rem;
+    width: 83%;
     margin: auto;
-}
-
-section.livre3 div.novos-videos{
-    margin: auto;
-    width: 30rem;
-    height: 30rem;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    /*background-color: lemonchiffon;*/
-}
-
-section.livre3 div.novos-videos h2{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-
-section.livre3 div.novos-videos div.video-livre3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-}
-
-section.livre3 div.video-livre3 iframe{
+    margin-top: 1%;
     margin-bottom: 1%;
   }
 
@@ -2714,15 +2762,76 @@ section.livre3 div.video-livre3 iframe{
   }
 }
 
-aside.sobre-novos-videos{
-    width: 20rem;
-    height: 30rem;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
-    
-    /*background-color: lightcoral;*/
+@media (min-width: 1280px){
+  section.livre3{
+      display: flex;
+      flex-direction: row;
+      width: 83%;
+      margin: auto;
+      margin-top: 1%;
+      margin-bottom: 1%;
+  }
+
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 40%;
+      height: 30rem;
+      padding: 1%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      margin: auto;
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 45%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 1%;
+  }
+
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: small;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
 }
 
 /* Livre 6 */
