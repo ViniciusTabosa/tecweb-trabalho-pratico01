@@ -150,272 +150,1339 @@ footer{
     margin-right: 25px;
 }
 
-/*Seção 4 - Top 10 vídeos*/
-
-.section-novidades{
-  display: flex;
+/*Livre 4 - Novidades*/
+@media (max-width: 479px){
+  .section-novidades{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 105rem;
+    margin: auto;
+  }
   
-  width: 70rem;
-  height: 40rem;
-  margin: auto;
+  .h2-novidades{
+   
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #FBB321;
+    font-size: 25px;
+    font-weight:lighter ;
+  }
+  
+  .aside-favoritos .h2-novidades{
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+  }
+  
+  .section-novidades .div-novidades{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 98%;
+    height: 100%;
+    margin-top: 15px;
+  }
+  
+  .div-novidades .novidade{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 130px;
+    margin-left: 10px;
+    width: 100% ;
+    height: 7rem;
+  }
+
+  .novidade img{
+    display: block;
+    margin: auto;
+  }
+
+  .article-novidades{
+    margin-top: auto;
+    margin-left: 10px;
+  }
+  
+  .article-novidades p{
+     color: white;
+     font-size: 12px;
+     text-align: justify;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .article-novidades h4{
+    color:  #FBB321;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: lighter;
+  }
+   
+  hr{
+    margin-left: 10px;
+  }
+  
+  .button-novidades{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+    margin-top: 5px;
+  }
+  
+  .button-novidades1{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+  }
+  
+  .button-novidades:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+  .button-novidades1:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+  .section-novidades .aside-favoritos{
+    width: 23rem;
+    border: 2px solid black;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #F6AE2D;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .p-novidades{
+    margin-left: 36px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  
+  .li-novidades{
+    margin-left: 75px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  
+  .div-favoritos{
+    margin-left: 20px;
+  }
+  
+  .favoritos-novidades{
+    
+    width: 120px;
+    height: 180px;
+    display: inline-block;
+    padding: 5px;
+  }
+}
+@media (min-width: 480px) and (max-width: 1150px){
+  .section-novidades{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90rem;
+    margin: auto;
+  }
+  
+  .h2-novidades{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #FBB321;
+    font-size: 25px;
+    font-weight:lighter ;
+  }
+  
+  .aside-favoritos .h2-novidades{
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+  }
+  
+  .section-novidades .div-novidades{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 98%;
+    height: 100%;
+
+  }
+  
+  .div-novidades .novidade{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    width: 100% ;
+    height: 7rem;
+  }
+  
+  .article-novidades{
+    margin-left: 10px;
+  }
+  
+  .article-novidades p{
+     color: white;
+     font-size: 15px;
+     text-align: justify;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .article-novidades h4{
+    color:  #FBB321;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: lighter;
+  }
+  
+  
+  hr{
+    margin-left: 10px;
+  }
+  
+  .button-novidades{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+    margin-top: 5px;
+  }
+  
+  .button-novidades1{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+  }
+  
+  .button-novidades:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+  .button-novidades1:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+ .aside-favoritos{
+    width: 30rem;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #F6AE2D;
+  }
+  
+  .p-novidades{
+    margin-left: 36px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  
+  .li-novidades{
+    margin-left: 75px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  
+  .div-favoritos{
+    margin-left: 20px;
+  }
+  
+  .favoritos-novidades{
+    
+    width: 120px;
+    height: 180px;
+    display: inline-block;
+    padding: 5px;
+  }
+}
+@media (min-width: 1151px) and (max-width: 1500px){
+  .section-novidades{
+    display: flex;
+    width: 70rem;
+    height: 40rem;
+    margin: auto;
+  }
+  
+  .h2-novidades{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #FBB321;
+    font-size: 25px;
+    font-weight:lighter ;
+  }
+  
+  .aside-favoritos .h2-novidades{
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+  }
+  
+  .aside-favoritos{
+    width: 32rem;
+    border: 2px solid black;
+    margin-left: 65px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #F6AE2D;
+  }
+  
+  .section-novidades .div-novidades{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    height: 100%;
+    margin-top: 15px;
+  }
+  
+  .div-novidades .novidade{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    width: 100% ;
+    height: 7rem;
+  }
+  
+  .article-novidades{
+    margin-left: 10px;
+  }
+  
+  .article-novidades p{
+     color: white;
+     font-size: 15px;
+     text-align: justify;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .article-novidades h4{
+    color:  #FBB321;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: lighter;
+  }
+  
+  hr{
+    margin-left: 10px;
+  }
+  
+  .button-novidades{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+    margin-top: 5px;
+  }
+  
+  .button-novidades1{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+  }
+  
+  .button-novidades:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+  .button-novidades1:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+  .p-novidades{
+    margin-left: 36px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  
+  .li-novidades{
+    margin-left: 75px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  
+  .div-favoritos{
+    margin-left: 20px;
+  }
+  
+  .favoritos-novidades{
+    
+    width: 120px;
+    height: 180px;
+    display: inline-block;
+    padding: 5px;
+  }
+}
+@media (min-width: 1501px) and (max-width: 2045px){
+  .section-novidades{
+    display: flex;
+    
+    width: 83%;
+    height: 40rem;
+    margin: auto;
+  }
+  
+  .h2-novidades{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #FBB321;
+    font-size: 30px;
+    font-weight:lighter ;
+  }
+  
+  .aside-favoritos .h2-novidades{
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+  }
+
+  .section-novidades .aside-favoritos{
+    width: 32rem;
+    height: 100%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #F6AE2D;
+  }
+  
+  .section-novidades .div-novidades{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    height: 100%;
+    margin-top: 15px;
+  }
+  
+  .div-novidades .novidade{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    width: 100% ;
+    height: 7rem;
+  }
+  
+  .article-novidades{
+    margin-left: 10px;
+  }
+  
+  .article-novidades p{
+     color: white;
+     font-size: 17px;
+     text-align: justify;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .article-novidades h4{
+    color:  #FBB321;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: lighter;
+  }
+   
+  hr{
+    margin-left: 10px;
+  }
+  
+  .button-novidades{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+    margin-top: 5px;
+  }
+  
+  .button-novidades1{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+  }
+  
+  .button-novidades:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+  .button-novidades1:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+  .p-novidades{
+    margin-left: 36px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  
+  .li-novidades{
+    margin-left: 75px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  
+  .div-favoritos{
+    margin-left: 20px;
+  }
+  
+  .favoritos-novidades{
+    
+    width: 120px;
+    height: 180px;
+    display: inline-block;
+    padding: 5px;
+  }
+}
+@media (min-width: 2046px){
+  .section-novidades{
+    display: flex;
+    width: 83%;
+    height: 40rem;
+    margin: auto;
+  }
+  
+  .h2-novidades{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #FBB321;
+    font-size: 25px;
+    font-weight:lighter ;
+  }
+  
+   .aside-favoritos{
+    margin-left: auto;
+    margin-right: auto;
+    width: 32rem;
+    border: 2px solid black;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #F6AE2D;
+  }
+  .aside-favoritos .h2-novidades{
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+  }
+  
+  .section-novidades .div-novidades{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    height: 100%;
+    margin-top: 15px;
+  }
+  
+  .div-novidades .novidade{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    width: 100% ;
+    height: 7rem;
+  }
+  
+  .article-novidades{
+    margin-left: 10px;
+  }
+  
+  .article-novidades p{
+     color: white;
+     font-size: 18px;
+     text-align: justify;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .article-novidades h4{
+    color:  #FBB321;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: lighter;
+  }
+  
+  .article-novidades p{
+     font-size: 15px;
+  }
+  
+  hr{
+    margin-left: 10px;
+  }
+  
+  .button-novidades{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+    margin-top: 5px;
+  }
+  
+  .button-novidades1{
+    display: inline-block;
+    border: 2xs solid black;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: flex-end;
+  }
+  
+  .button-novidades:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+  .button-novidades1:hover{
+    box-shadow: 2px 2px 10px black;
+      cursor: pointer;
+  }
+  
+
+  
+  .p-novidades{
+    margin-left: 36px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  
+  .li-novidades{
+    margin-left: 75px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+  }
+  
+  .div-favoritos{
+    margin-left: 20px;
+  }
+  
+  .favoritos-novidades{
+    
+    width: 120px;
+    height: 180px;
+    display: inline-block;
+    padding: 5px;
+  }
 }
 
-.h2-novidades{
-  margin-top: px;
-  margin-left: 15px;
-  color: #FBB321;
-  font-size: 25px;
-  font-weight:lighter ;
-}
-
-.aside-favoritos .h2-novidades{
-  margin-top: 5px;
-  margin-left: 15px;
-  text-align: center;
-  font-weight: lighter;
-  color: black;
-}
-
-.section-novidades .div-novidades{
-  display: flex;
-  flex-direction: column;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 50%;
-  height: 100%;
-  margin-top: 15px;
-}
-
-.div-novidades .novidade{
-  display: flex;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 10px;
-  width: 100% ;
-  height: 7rem;
-}
-
-.article-novidades{
-  margin-left: 10px;
-}
-
-.article-novidades p{
-   color: white;
-   font-size: 18px;
-   text-align: justify;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.article-novidades h4{
-  color:  #FBB321;
-  font-size: 18px;
-  text-align: justify;
-  font-weight: lighter;
-}
-
-.article-novidades p{
-   font-size: 15px;
-}
-
-hr{
-  margin-left: 10px;
-}
-
-.button-novidades{
-  display: inline-block;
-  border: 2xs solid black;
-  width: 80px;
-  height: 25px;
-  border-radius: 20px;
-  align-items: flex-end;
-  margin-top: 5px;
-}
-
-.button-novidades1{
-  display: inline-block;
-  border: 2xs solid black;
-  width: 50px;
-  height: 25px;
-  border-radius: 20px;
-  align-items: flex-end;
-}
-
-.button-novidades:hover{
-  box-shadow: 2px 2px 10px black;
+/*Livre 5 - Fórum*/
+@media (max-width: 479px){
+  .forum{
+    display: flex;
+    width: 23rem;
+    height: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: #52B2CF;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .forum h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #F6AE2D;
+    
+  }
+  .forum .h2-div-forum{
+    height: 2%;
+  }
+  
+  .forum .div-forum{
+    display: flex;
+    flex-direction: column;
+    height:98%;
+    width: 100%;
+  }
+  .div-forum .article-forum{
+    display: flex;
+    flex-direction: column;
+    background-color: #99A1A6;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 19%;
+    margin-top: 2px;
+  }
+  
+  .article-forum .img-forum{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 100%;
+  }
+  
+  .nome-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:  #2E86AB;
+    font-weight: lighter;
+    font-size: 12px;
+  }
+  
+  .nivel-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #6C0E23;
+    font-weight: lighter;
+    font-size: 12px;
+    
+  }
+  
+  .foto-perfil p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:white;
+  }
+  
+  .img-perfil{
+   display: block;
+   margin: auto;
+  }
+  
+  .article-forum .postagem-forum{
+    width: 100% ;
+  }
+  
+  #article-forum{
+    margin-bottom:0px;
+  }
+  .postagem-forum .dia-postagem{
+    height: 15%;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }
+  
+  /* .postagem-forum .comentario-postagem{
+    height: 55%;
+    font-size: 10px;
+  } */
+  .comentario-postagem p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    margin-top: 3px;   
+  }
+  .button-comentario{
+    border-radius: 20px;
+    height: 25px;
+    width: 100px ;
+    font-size: 10px;
+  }
+  .button-comentario:hover{
+    background-color:white;
     cursor: pointer;
+  }
+  
+  .postagem-forum .filme-forum{
+    height: 20%;
+    font-size: 20px;
+  }
+  .filme-forum{
+    font-size: xx-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .filme-forum span{
+    font-size: 15px;
+    font-weight: lighter;
+  }
 }
-
-.button-novidades1:hover{
-  box-shadow: 2px 2px 10px black;
+@media (min-width: 480px) and (max-width: 1100px){
+  .forum{
+    display: flex;
+    width: 30rem;
+    height: 80rem;
+   
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: #52B2CF;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .forum h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    
+    color: #F6AE2D;
+    
+  }
+  .forum .h2-div-forum{
+    height: 2%;
+  }
+  
+  .forum .div-forum{
+    display: flex;
+    flex-direction: column;
+    height:98%;
+    width: 100%;
+  }
+  .div-forum .article-forum{
+    display: flex;
+    flex-direction: column;
+    background-color: #99A1A6;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 19%;
+    margin-top: 2px;
+  }
+  
+  .article-forum .img-forum{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 100%;
+  }
+  
+  .nome-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:  #2E86AB;
+    font-weight: lighter;
+    font-size: 15px;
+  }
+  
+  .nivel-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #6C0E23;
+    font-weight: lighter;
+    font-size: 15px;
+    
+  }
+  
+  .foto-perfil p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:white;
+  }
+  
+  .img-perfil{
+   display: block;
+   margin: auto;
+  }
+  
+  .article-forum .postagem-forum{
+    width: 100% ;
+    margin-left: 12px;
+  }
+  
+  #article-forum{
+    margin-bottom:0px;
+  }
+  .postagem-forum .dia-postagem{
+    height: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }
+  
+  /* .postagem-forum .comentario-postagem{
+    height: 55%;
+    font-size: 10px;
+  } */
+  .comentario-postagem p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    
+    margin-top: 3px;
+    
+   
+  }
+  .button-comentario{
+    border-radius: 20px;
+    height: 25px;
+    width: 100px ;
+    font-size: 10px;
+  }
+  .button-comentario:hover{
+    background-color:white;
     cursor: pointer;
-}
-
-.aside-favoritos{
-  width: 32rem;
-  border: 2px solid black;
-  margin-left: 65px;
-  margin-top: 15px;
-  border-radius: 15px;
-  background-color: #F6AE2D;
-}
-
-.p-novidades{
-  margin-left: 36px;
-  margin-top: 15px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 17px;
-}
-
-.li-novidades{
-  margin-left: 75px;
-  margin-top: 5px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 17px;
-}
-
-.div-favoritos{
-  margin-left: 20px;
-}
-
-.favoritos-novidades{
+  }
   
-  width: 120px;
-  height: 180px;
-  display: inline-block;
-  padding: 5px;
+  .postagem-forum .filme-forum{
+    height: 20%;
+    font-size: 20px;
+  }
+  .filme-forum{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .filme-forum span{
+    font-size: 20px;
+    font-weight: lighter;
+  }
 }
-
-/*Seção 5 - Fórum*/
-.forum{
-  display: flex;
-  width: 70rem;
-  height: 47rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid black;
-  background-color: #52B2CF;
-  border-radius: 10px;
-  flex-direction: column;
-}
-.forum h2{
-  text-align: center;
-  font-size: 25px;
-  font-weight: lighter;
+@media (min-width: 1101px) and (max-width: 1500px){
+  .forum{
+    display: flex;
+    width: 83%;
+    height: 47rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: #52B2CF;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .forum h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    
+    color: #F6AE2D;
+    
+  }
+  .forum .h2-div-forum{
+    margin-top: 20px;
+    height: 5%;
+  }
   
-  color: #F6AE2D;
+  .forum .div-forum{
+    
+    margin-top: 10px;
+    height:95%;
+    width: 100%;
+  }
+  .div-forum .article-forum{
+    display: flex;
+    background-color: #99A1A6;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 19%;
+    
+    margin-top: 2px;
+  }
   
-}
-.forum .h2-div-forum{
-  margin-top: 20px;
-  height: 5%;
-}
-
-.forum .div-forum{
+  .article-forum .img-forum{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+  }
   
-  margin-top: 10px;
-  height:95%;
-  width: 100%;
-}
-.div-forum .article-forum{
-  display: flex;
-  background-color: #99A1A6;
-  border: 1px solid black;
-  border-left: none;
-  border-right: none;
-  width: 100%;
-  height: 19%;
+  .nome-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:  #2E86AB;
+    font-weight: lighter;
+    font-size: 18px;
+  }
   
-  margin-top: 2px;
-}
-
-.article-forum .img-forum{
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  height: 100%;
-}
-
-.nome-usuario span{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  color:  #2E86AB;
-  font-weight: lighter;
-  font-size: 18px;
-}
-
-.nivel-usuario span{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  color: #6C0E23;
-  font-weight: lighter;
-  font-size: 18px;
+  .nivel-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #6C0E23;
+    font-weight: lighter;
+    font-size: 18px;
+    
+  }
   
+  .foto-perfil p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:white;
+  }
+  
+  .img-perfil{
+   display: block;
+   margin: auto;
+  }
+  
+  .article-forum .postagem-forum{
+    width: 70% ;
+  }
+  
+  #article-forum{
+    margin-bottom:0px;
+  }
+  .postagem-forum .dia-postagem{
+    height: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }
+  
+  .postagem-forum .comentario-postagem{
+    height: 55%;
+    font-size: 20px;
+  }
+  .comentario-postagem p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: justify;
+    margin-right: 10px;
+  }
+  .button-comentario{
+    border-radius: 20px;
+    height: 25px;
+    width: 120px ;
+  }
+  .button-comentario:hover{
+    background-color:white;
+    cursor: pointer;
+  }
+  
+  .postagem-forum .filme-forum{
+    height: 20%;
+    font-size: 20px;
+  }
+  .filme-forum{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .filme-forum span{
+    font-size: 20px;
+  }
+}
+@media (min-width: 1501px) and (max-width: 2045px){
+  .forum{
+    display: flex;
+    width: 83%;
+    height: 47rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: #52B2CF;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .forum h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #F6AE2D;
+    
+  }
+  .forum .h2-div-forum{
+    height: 5%;
+  }
+  
+  .forum .div-forum{
+    
+    margin-top: 10px;
+    height:95%;
+    width: 100%;
+  }
+  .div-forum .article-forum{
+    display: flex;
+    background-color: #99A1A6;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 19%;
+    
+    margin-top: 2px;
+  }
+  
+  .article-forum .img-forum{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+  }
+  
+  .nome-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:  #2E86AB;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  
+  .nivel-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #6C0E23;
+    font-weight: lighter;
+    font-size: 20px;
+    
+  }
+  
+  .foto-perfil p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:white;
+  }
+  
+  .img-perfil{
+   display: block;
+   margin: auto;
+  }
+  
+  .article-forum .postagem-forum{
+    width: 70% ;
+  }
+  
+  #article-forum{
+    margin-bottom:0px;
+  }
+  .postagem-forum .dia-postagem{
+    height: 15%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }
+  
+  .postagem-forum .comentario-postagem{
+    height: 55%;
+    font-size: 20px;
+  }
+  .comentario-postagem p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 23px;
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+  .button-comentario{
+    border-radius: 20px;
+    height: 25px;
+    width: 120px ;
+  }
+  .button-comentario:hover{
+    background-color:white;
+    cursor: pointer;
+  }
+  
+  .postagem-forum .filme-forum{
+    height: 20%;
+    font-size: 20px;
+  }
+  .filme-forum{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .filme-forum span{
+    font-size: 22px;
+    font-weight: lighter;
+  }  
+}
+@media (min-width: 2046px){
+  .forum{
+    display: flex;
+    width: 83%;
+    height: 47rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: #52B2CF;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .forum h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #F6AE2D;
+    
+  }
+  .forum .h2-div-forum{
+    height: 5%;
+  }
+  
+  .forum .div-forum{
+    margin-top: 10px;
+    height:95%;
+    width: 100%;
+  }
+  .div-forum .article-forum{
+    display: flex;
+    background-color: #99A1A6;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 19%;
+    margin-top: 2px;
+  }
+  
+  .article-forum .img-forum{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+  }
+  
+  .nome-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:  #2E86AB;
+    font-weight: lighter;
+    font-size: 25px;
+  }
+  
+  .nivel-usuario span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #6C0E23;
+    font-weight: lighter;
+    font-size: 20px;
+    
+  }
+  
+  .foto-perfil p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:white;
+  }
+  
+  .img-perfil{
+   display: block;
+   margin: auto;
+  }
+  
+  .article-forum .postagem-forum{
+    width: 70% ;
+  }
+  
+  #article-forum{
+    margin-bottom:0px;
+  }
+  .postagem-forum .dia-postagem{
+    height: 15%;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+  }
+  
+  .postagem-forum .comentario-postagem{
+    height: 55%;
+
+    font-size: 20px;
+  }
+  .comentario-postagem p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    margin-top: 12px;
+  }
+  .button-comentario{
+    border-radius: 20px;
+    height: 40px;
+    font-size: 15px;
+    width: 150px ;
+  }
+  .button-comentario:hover{
+    background-color:white;
+    cursor: pointer;
+  }
+  
+  .postagem-forum .filme-forum{
+    height: 20%;
+    font-size: 20px;
+  }
+  .filme-forum{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .filme-forum span{
+    font-size: 20px;
+  }  
 }
 
-.foto-perfil p{
-  margin-left: auto;
-  margin-right: auto;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color:white;
-}
+/*Livre 7 - Form */
 
-.img-perfil{
- display: block;
- margin: auto;
-}
-
-.article-forum .postagem-forum{
-  width: 70% ;
-}
-
-#article-forum{
-  margin-bottom:0px;
-}
-.postagem-forum .dia-postagem{
-  height: 15%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: lighter;
-}
-
-.postagem-forum .comentario-postagem{
-  height: 55%;
-  font-size: 20px;
-}
-.comentario-postagem p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: lighter;
-  font-size: 20px;
-  margin-top: 3px;
-}
-.button-comentario{
-  border-radius: 20px;
-  height: 25px;
-  width: 120px ;
-}
-.button-comentario:hover{
-  background-color:white;
-  cursor: pointer;
-}
-
-.postagem-forum .filme-forum{
-  height: 20%;
-  font-size: 20px;
-}
-.filme-forum{
-  font-size: 16px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.filme-forum span{
-  font-size: 20px;
-}
-
-@media (min-width: 1px) and (max-width: 1150px){
+@media (max-width: 479px){
 /*Seção 7 - Formulário*/
 .section-form{
   display: flex;
@@ -433,22 +1500,23 @@ hr{
   color: #FBB321;
   font-weight: lighter;
   font-size: 18px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 .img-section-form{
   display: block;
-  margin: 20px auto;
-
+  margin: 30px auto;
+  width: 200px;
 }
 
 .section-form form {
   display: block;
   margin: auto;
-  
   height: 100%;
   background-image: url(midia/DCvsMarvel-opacidade34-672x480.png);
   background-repeat: no-repeat ;
+ 
 }
 
 form label {
@@ -457,14 +1525,14 @@ form label {
 }
 
 label{
-text-align:left;
-margin-left: 100px;
-margin-top: 30px;
-font-family: 'ZenDots', 'Times', serif;
-font-size: 16px;
-color: white;
-display: inline-block;
-font-weight: lighter;
+  text-align:left;
+  margin-left: 60px;
+  margin-top: 10px;
+  font-family: 'ZenDots', 'Times', serif;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  font-weight: lighter;
 }
 
 .input {
@@ -472,6 +1540,7 @@ font-weight: lighter;
   border: 0;
   outline: 0;
   margin: 0px;
+  margin-right: 50px;
   background: transparent;
   border-bottom: 2px solid white;
   font-family: 'ZenDots',Times,serif;
@@ -480,25 +1549,30 @@ font-weight: lighter;
 }
 
 #nome-input{
-  width: 218.77px;
+  display: block;
+  width: 259.27px;
   margin-bottom: 0px;
+  
 }
 
 #link-input{
-  width: 234.66px;
+  display: block;
+  width: 259.27px;
 }
 
 #diretor-input{
-  width: 289.27px;
+  display: block;
+  width: 259.27px;
 }
 
 #ano-input{
-  width: 184.63px;
+  display: block;
+  width: 259.27px;
 }
 
 #elenco-textarea{
-  width: 464px;
-  height: 100px;
+  width: 300px;
+  height: 90px;
   resize: none;
   background-color: transparent;
   color: black;
@@ -522,7 +1596,7 @@ font-weight: lighter;
   border-radius: 25px ;
   font-size: 18px;
   font-weight:bold;
-  margin-top: 35px;
+  margin-top: 10px;
   background: #FBB321;
   color: black;
   font-family: 'ZenDots',Times,serif;
@@ -533,20 +1607,143 @@ font-weight: lighter;
   cursor: pointer;
 
 }
+}
 
+@media (min-width: 480px) and (max-width: 1150px){
+/*Seção 7 - Formulário*/
+.section-form{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.section-form aside{
+  height: 100%;
+}
+
+.sectionarticleForm p{
+  font-family: 'ZenDots',Times,serif;
+  color: #FBB321;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+}
+
+.img-section-form{
+  display: block;
+  margin: 45px auto;
 
 }
 
-@media (min-width: 1151px) and (max-width: 3000px){
+.section-form form {
+  display: block;
+  margin: auto;
+  height: 100%;
+  background-image: url(midia/DCvsMarvel-opacidade34-672x480.png);
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: cover;
+}
+
+form label {
+  display: block;
+  padding:5px;
+}
+
+label{
+  text-align:left;
+  margin-left: 60px;
+  margin-top: 10px;
+  font-family: 'ZenDots', 'Times', serif;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+.input {
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  margin: 0px;
+  margin-right: 50px;
+  background: transparent;
+  border-bottom: 2px solid white;
+  font-family: 'ZenDots',Times,serif;
+  font-size: 16px;
+  color: white;
+}
+
+#nome-input{
+  display: block;
+  width: 289.27px;
+  margin-bottom: 0px;
+  
+}
+
+#link-input{
+  display: block;
+  width: 289.27px;
+}
+
+#diretor-input{
+  display: block;
+  width: 289.27px;
+}
+
+#ano-input{
+  display: block;
+  width: 238.77px;
+}
+
+#elenco-textarea{
+  width: 300px;
+  height: 90px;
+  resize: none;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'ZenDots', Times, serif;
+  font-size: 16px;
+  color: white;
+}
+
+#botao-input{
+  display: block;
+  margin: auto;
+  width:150px;
+  height:30px;
+  
+  border-radius: 25px ;
+  font-size: 18px;
+  font-weight:bold;
+  margin-top: 10px;
+  background: #FBB321;
+  color: black;
+  font-family: 'ZenDots',Times,serif;
+}
+
+#botao-input:hover{
+  box-shadow: 2px 2px 10px black;
+  cursor: pointer;
+
+}
+}
+
+@media (min-width: 1151px) and (max-width: 1500px){
   
 /*Seção 7 - Formulário*/
 .section-form{
   display: flex;
   flex-direction: row;
-  
   margin: auto;
-  
-  border: 2px solid white;
+
   height: 30rem;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -572,7 +1769,7 @@ font-weight: lighter;
 
 .img-section-form{
   display: block;
-  margin: 20px auto;
+  margin: 45px auto;
   
 }
 
@@ -615,16 +1812,147 @@ font-weight: lighter;
 }
 
 #nome-input{
-  width: 218.77px;
+  width: 228.47px;
   margin-bottom: 0px;
 }
 
 #link-input{
-  width: 234.66px;
+  width: 244.36px;
 }
 
 #diretor-input{
-  width: 289.27px;
+  width: 298.97px;
+}
+
+#ano-input{
+  width: 184.63px;
+}
+
+#elenco-textarea{
+  width: 464px;
+  height: 100px;
+  resize: none;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 10px;
+  display: block;
+  margin-left: 100px;
+  font-family: 'ZenDots', Times, serif;
+  font-size: 16px;
+  color: white;
+}
+
+#botao-input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:150px;
+  height:30px;
+  
+  border-radius: 25px ;
+  font-size: 18px;
+  font-weight:bold;
+  margin-top: 35px;
+  background: #FBB321;
+  color: black;
+  font-family: 'ZenDots',Times,serif;
+}
+
+#botao-input:hover{
+  box-shadow: 2px 2px 10px black;
+  cursor: pointer;
+}
+
+}
+
+@media (min-width: 1501px) and (max-width: 2045px){
+/*Seção 7 - Formulário*/
+.section-form{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 83%;
+  height: 30rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.section-form aside{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionarticleForm p{
+  font-family: 'ZenDots',Times,serif;
+  color: #FBB321;
+  font-weight: lighter;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 5px;
+}
+
+.img-section-form{
+  display: block;
+  margin: 45px auto;
+  
+}
+
+.section-form form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-image: url(midia/DCvsMarvel-003-26-04-22-opacidade34.png);
+  background-repeat: no-repeat ;
+  
+}
+
+form label {
+  display: block;
+  padding:5px;
+}
+
+label{
+  text-align:left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-family: 'ZenDots', 'Times', serif;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+.input {
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  margin: 0px;
+  background: transparent;
+  border-bottom: 2px solid white;
+  font-family: 'ZenDots',Times,serif;
+  font-size: 16px;
+  color: white;
+}
+
+#nome-input{
+  width: 228.47px;
+  margin-bottom: 0px;
+}
+
+#link-input{
+  width: 244.36px;
+}
+
+#diretor-input{
+  width: 298.97px;
 }
 
 #ano-input{
@@ -667,10 +1995,143 @@ font-weight: lighter;
 #botao-input:hover{
   box-shadow: 2px 2px 10px black;
   cursor: pointer;
-
 }
 
 }
+
+@media (min-width: 2046px){
+  /*Seção 7 - Formulário*/
+.section-form{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 83%;
+    height: 30rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+.section-form aside{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+.sectionarticleForm p{
+    font-family: 'ZenDots',Times,serif;
+    color: #FBB321;
+    font-weight: lighter;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+.img-section-form{
+    display: block;
+    margin: 20px auto;
+    
+  }
+  
+.section-form form {
+    display: flex;
+    flex-direction: column;  
+    width: 50%;
+    height: 100%;
+    background-image: url(midia/DCvsMarvel-003-26-04-22-opacidade34.png);
+    background-repeat: no-repeat ;
+    background-position: center;
+  }
+  
+form label {
+    display: block;
+    padding:5px;
+  }
+  
+label{
+    text-align:left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-family: 'ZenDots', 'Times', serif;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    font-weight: lighter;
+  }
+  
+.input {
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    margin: 0px;
+    background: transparent;
+    border-bottom: 2px solid white;
+    font-family: 'ZenDots',Times,serif;
+    font-size: 16px;
+    color: white;
+  }
+  
+#nome-input{
+    width: 228.47px;
+    margin-bottom: 0px;
+  }
+  
+#link-input{
+    width: 244.36px;
+  }
+  
+#diretor-input{
+    width: 298.97px;
+  }
+  
+#ano-input{
+    width: 184.63px;
+  }
+  
+#elenco-textarea{
+    width: 464px;
+    height: 100px;
+    resize: none;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'ZenDots', Times, serif;
+    font-size: 16px;
+    color: white;
+  }
+  
+#botao-input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    height:30px;
+    
+    border-radius: 25px ;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top: 35px;
+    background: #FBB321;
+    color: black;
+    font-family: 'ZenDots',Times,serif;
+  }
+  
+#botao-input:hover{
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+  }
+  
+}
+
+
 /* Vinicius */
 /* Destaques */
 
