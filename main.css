@@ -257,9 +257,7 @@ label {
   section.destaque {
     display: flex;
     width: 90%;
-    border: 1px black solid;
     margin: auto;
-    /* background-color: bisque; */
     flex-direction: column;
   }
 
@@ -275,36 +273,28 @@ label {
     width: 80%;
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
     padding-top: 1%;
-    /* background-color: darkseagreen; */
-    /* border: 1px black solid;   */
   }
 
-  section.menu-destaque h2 {
-    /* margin-left: 10px; */
+  section.menu-destaque h2{
     display: flex;
   }
 
   section.menu-destaque select {
     display: flex;
-    /* align-self: flex-end; */
     margin-top: 1%;
     margin-bottom: 2%;
     width: 30%;
-    /* margin-right: 10px; */
   }
 
   div.destaque-filme {
     width: 90%;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     align-items: center;
     margin: auto;
     justify-content: space-evenly;
-    /* margin-top: 5%; */
     margin-bottom: 2%;
   }
 
@@ -312,18 +302,15 @@ label {
     width: 180px;
     height: 225px;
     margin-bottom: 2%;
-    background-color: aquamarine;
     border: 1px black solid;
   }
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
-  section.destaque {
+@media (min-width: 480px) and (max-width: 779px){
+  section.destaque{
     display: flex;
     width: 90%;
-    border: 1px black solid;
     margin: auto;
-    /* background-color: bisque; */
     flex-direction: column;
   }
 
@@ -339,25 +326,19 @@ label {
     width: 80%;
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
     padding-top: 1%;
-    /* background-color: darkseagreen; */
-    /* border: 1px black solid;   */
   }
 
-  section.menu-destaque h2 {
-    /* margin-left: 10px; */
+  section.menu-destaque h2{
     display: flex;
   }
 
   section.menu-destaque select {
     display: flex;
-    /* align-self: flex-end; */
     margin-top: 1%;
     margin-bottom: 2%;
     width: 30%;
-    /* margin-right: 10px; */
   }
 
   div.destaque-filme {
@@ -367,7 +348,6 @@ label {
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-evenly;
-    /* margin-top: 5%; */
     margin-bottom: 2%;
   }
 
@@ -380,14 +360,11 @@ label {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1279px) {
-  section.destaque {
+@media (min-width: 780px) and (max-width: 1279px){
+  section.destaque{
     display: flex;
     width: 90%;
-    border: 1px black solid;
-    /* height: 30rem; */
     margin: auto;
-    /* background-color: bisque; */
     flex-direction: column;
   }
 
@@ -405,12 +382,9 @@ label {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 1%;
-    /* background-color: darkseagreen; */
-    /* border: 1px black solid;   */
   }
 
-  section.menu-destaque h2 {
-    /* margin-left: 10px; */
+  section.menu-destaque h2{
     display: flex;
   }
 
@@ -418,7 +392,6 @@ label {
     display: flex;
     align-self: center;
     width: 15%;
-    /* margin-right: 10px; */
   }
 
   div.destaque-filme {
@@ -435,7 +408,6 @@ label {
     width: 144px;
     height: 180px;
     display: flex;
-
     background-color: aquamarine;
     border: 1px black solid;
   }
@@ -444,11 +416,8 @@ label {
 @media (min-width: 1280px) {
   section.destaque {
     display: flex;
-    width: 80%;
-    border: 1px black solid;
-    /* height: 30rem; */
+    width: 83%;
     margin: auto;
-    /* background-color: bisque; */
     flex-direction: column;
   }
 
@@ -468,12 +437,9 @@ label {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 1%;
-    /* background-color: darkseagreen; */
-    /* border: 1px black solid;   */
   }
 
-  section.menu-destaque h2 {
-    /* margin-left: 10px; */
+  section.menu-destaque h2{
     display: flex;
   }
 
@@ -481,7 +447,6 @@ label {
     display: flex;
     align-self: center;
     width: 15%;
-    /* margin-right: 10px; */
   }
 
   div.destaque-filme {
@@ -504,14 +469,8 @@ label {
 }
 
 /* Entrevistas e Making of */
-@media (max-width: 479px) {
-}
-
-@media (min-width: 480px) and (max-width: 768px) {
-}
-
-@media (min-width: 769px) and (max-width: 1279px) {
-  section.entrevista {
+@media (max-width: 479px){
+  section.entrevista{
     width: 100%;
     height: 30%;
     background-color: lightgray;
@@ -522,33 +481,124 @@ label {
     flex-direction: column;
   }
 
-  section.entrevista h2 {
-    margin-left: 13%;
-    margin-bottom: 2%;
+  section.entrevista h2{
+      display: flex;
+      align-self: center;
   }
 
-  section.entrevista div.makingof {
+  section.entrevista div.makingof{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: auto;
+  }
+
+  section.entrevista div.makingof div.video-makingof{
+    margin-bottom: 5%;
+  }
+
+  section.entrevista div.makingof div.video-makingof iframe{
+    width: 200px;
+    height: 150px;
+  }
+
+  section.entrevista div.info-makingof{
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      font-size: small;
+  }
+
+  section.entrevista button{
+    position: relative;
+    left: 65%;
+    margin-top: 1%;
+    
+  }
+}
+
+@media (min-width: 480px) and (max-width: 779px){
+  section.entrevista{
+    width: 100%;
+    height: 30%;
+    background-color: lightgray;
     display: flex;
-    flex-direction: row;
     margin: auto;
-    justify-content: space-evenly;
-    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-direction: column;
   }
 
-  /* section.entrevista div.makingof div.video-makingof{
-    margin-left: -10%;
-    margin-right: -10%;
-  } */
+  section.entrevista h2{
+      display: flex;
+      align-self: center;
+  }
 
-  section.entrevista div.makingof div.video-makingof iframe {
+  section.entrevista div.makingof{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: auto;
+  }
+
+  section.entrevista div.makingof div.video-makingof{
+    margin-bottom: 5%;
+  }
+
+  section.entrevista div.makingof div.video-makingof iframe{
+    width: 350px;
+    height: 250px;
+  }
+
+  section.entrevista div.info-makingof{
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      font-size: small;
+  }
+
+  section.entrevista button{
+    position: relative;
+    left: 65%;
+    margin-top: 1%;
+    
+  }
+}
+
+@media (min-width: 780px) and (max-width: 1279px){
+  section.entrevista{
+    width: 100%;
+    height: 30%;
+    background-color: lightgray;
+    display: flex;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-direction: column;
+  }
+
+  section.entrevista h2{
+      margin-left: 14%;
+      margin-bottom: 2%;
+  }
+
+  section.entrevista div.makingof{
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      justify-content: space-around;
+  }
+
+  section.entrevista div.makingof div.video-makingof iframe{
     width: 200px;
     height: 120px;
   }
 
-  section.entrevista div.info-makingof {
-    display: flex;
-    flex-direction: column;
-    font-size: small;
+  section.entrevista div.info-makingof{
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      font-size: small;
   }
 
   section.entrevista button {
@@ -570,9 +620,9 @@ label {
     flex-direction: column;
   }
 
-  section.entrevista h2 {
-    margin-left: 13%;
-    margin-bottom: 2%;
+  section.entrevista h2{
+      margin-left: 14%;
+      margin-bottom: 2%;
   }
 
   section.entrevista div.makingof {
@@ -595,124 +645,512 @@ label {
   }
 }
 
-/* section.entrevista{
-    width: 100%;
-    height: 30%;
-    background-color: lightgray;
+/* Livre 3 */
+@media (max-width: 479px){
+  section.livre3{
     display: flex;
-    margin: auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
     flex-direction: column;
-}
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
 
-section.entrevista h2{
-    margin-left: 13%;
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 90%;
+      height: 30rem;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 2%;
+      width: 110%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 90%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+  }
+
+  aside.sobre-novos-videos p{
     margin-bottom: 2%;
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2.5%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
 }
 
-section.entrevista div.makingof{
+@media (min-width: 480px) and (max-width: 779px){
+  section.livre3{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 90%;
+      height: 30rem;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 2%;
+      width: 110%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 90%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+  }
+
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2.5%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 1279px){
+  section.livre3{
     display: flex;
     flex-direction: row;
+    width: 83%;
     margin: auto;
-    justify-content: space-evenly;
-    width: 70rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 45%;
+      height: 30rem;
+      padding: 1%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      
+  }
+
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
+
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 5%;
+      width: 90%;
+      height: 70%;
+  }
+
+  aside.sobre-novos-videos{
+      width: 50%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 1%;
+  }
+
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
+
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2.5%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
 }
 
-section.entrevista div.info-makingof{
-    display: flex;
-    flex-direction: column;
-    
-}
+@media (min-width: 1280px){
+  section.livre3{
+      display: flex;
+      flex-direction: row;
+      width: 83%;
+      margin: auto;
+      margin-top: 1%;
+      margin-bottom: 1%;
+  }
 
-section.entrevista button{
-  position: relative;
-  left: 77%;
-  margin-top: 1%;
-} */
+  section.livre3 div.novos-videos{
+      margin: auto;
+      width: 40%;
+      height: 30rem;
+      padding: 1%;
+      display: flex;
+      flex-direction: column;
+  }
 
-/* Livre 3 */
-section.livre3 {
-  display: flex;
-  flex-direction: row;
-  background-color: bisque;
-  width: 70rem;
-  margin: auto;
-}
+  section.livre3 div.novos-videos h2{
+      display: flex;
+      justify-content: center;
+      margin: auto;
+  }
 
-section.livre3 div.novos-videos {
-  margin: auto;
-  width: 30rem;
-  height: 30rem;
-  padding: 1%;
-  display: flex;
-  flex-direction: column;
-  background-color: lemonchiffon;
-}
+  section.livre3 div.novos-videos div.video-livre3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+  }
 
-section.livre3 div.novos-videos h2 {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
+  section.livre3 div.video-livre3 iframe{
+      margin-bottom: 3%;
+  }
 
-section.livre3 div.novos-videos div.video-livre3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-}
+  aside.sobre-novos-videos{
+      width: 45%;
+      height: 30rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 1%;
+  }
 
-section.livre3 div.video-livre3 iframe {
-  margin-bottom: 1%;
-}
+  aside.sobre-novos-videos p{
+    margin-bottom: 2%;
+    font-size: small;
+    text-align: justify;
+  }
 
-aside.sobre-novos-videos {
-  width: 20rem;
-  height: 30rem;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 1%;
+  aside.sobre-novos-videos div.aside-sobre{
+    margin-bottom: 3%;
+  }
 
-  background-color: lightcoral;
+  aside.sobre-novos-videos div.aside-redes{
+    width: 40%;
+    font-size: 120%;
+  }
+
+  div.aside-sobre div.div-editorial img.icone{
+    width: 2%;
+    margin-right: 2%;
+  }
+
+  aside.sobre-novos-videos img.icone-social{
+    width: 30%;
+    height: 30%;
+    margin: -3%;
+  }
 }
 
 /* Livre 6 */
-section.propagandas {
-  width: 83%;
-  height: 50%;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  background-color: lightgreen;
+@media (max-width: 479px){
+  section.propagandas{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-retrato{
+      display: none;
+  }
+
+  section.propagandas aside.prop-laterais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.propagandas div.prop-centrais{
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+  }
+
+  div.prop-centrais article.prop-centrais{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.propagandas article.prop-centro {
+      display: flex;
+      height: 5rem;
+      margin: auto;
+      border: 1px #1A8CD8  solid;
+      border-radius: 10px;
+      flex-direction: column;
+      padding: 2%;
+      margin-bottom: 1%;
+      font-size: 80%;
+  }
+
+  section.propagandas article.prop-centro span{
+    display: inline-flex;
+    
+  }
+
+  article.prop-centro img.icone-prop{
+    width: 5%;
+  }
 }
 
-section.propagandas aside {
-  background-color: greenyellow;
-  width: 20%;
-  margin: 1%;
+@media (min-width: 480px) and (max-width: 779px){
+  section.propagandas{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-retrato{
+      display: none;
+  }
+
+  section.propagandas aside.prop-laterais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.propagandas div.prop-centrais{
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+  }
+
+  div.prop-centrais article.prop-centrais{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.propagandas article.prop-centro {
+      display: flex;
+      height: 5rem;
+      margin: auto;
+      border: 1px #1A8CD8  solid;
+      border-radius: 10px;
+      flex-direction: column;
+      padding: 2%;
+      margin-bottom: 1%;
+      font-size: 60%;
+  }
+
+  section.propagandas article.prop-centro span{
+    display: inline-flex;
+    
+  }
+
+  article.prop-centro img.icone-prop{
+    width: 5%;
+  }
 }
 
-section.propagandas aside.prop-laterais {
-  padding: 2%;
-  text-align: center;
+@media (min-width: 780px) and (max-width: 1279px){
+  section.propagandas{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-retrato{
+      width: 200px;
+      height: 301px;
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-paisagem{
+    display: none;
+  }
+
+  section.propagandas aside.prop-laterais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  section.propagandas div.prop-centrais{
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+  }
+
+  div.prop-centrais article.prop-centrais{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.propagandas article.prop-centro {
+      display: flex;
+      height: 5rem;
+      margin: auto;
+      border: 1px #1A8CD8  solid;
+      border-radius: 10px;
+      flex-direction: column;
+      padding: 2%;
+      margin-bottom: 1%;
+      font-size: 80%;
+  }
+
+  section.propagandas article.prop-centro span{
+    display: inline-flex;
+    
+  }
+
+  article.prop-centro img.icone-prop{
+    width: 5%;
+  }
 }
 
-section.propagandas div.prop-centrais {
-  display: flex;
-  flex-direction: column;
-  margin: 2%;
-}
+@media (min-width: 1280px){
+  section.propagandas{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+  }
 
-section.propagandas article.prop-centro {
-  background-color: lightcoral;
-  display: flex;
-  margin: auto;
-  border: 1px black solid;
-  flex-direction: column;
-  padding: 2%;
-  margin-bottom: 1%;
+  section.propagandas aside.prop-laterais img.anuncio-retrato{
+      width: 290px;
+      height: 400px;
+  }
+
+  section.propagandas aside.prop-laterais img.anuncio-paisagem{
+    display: none;
+  }
+
+  section.propagandas div.prop-centrais{
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+  }
+
+  div.prop-centrais article.prop-centrais{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.propagandas article.prop-centro {
+      display: flex;
+      margin: auto;
+      border: 1px #1A8CD8  solid;
+      border-radius: 10px;
+      flex-direction: column;
+      padding: 2%;
+      margin-bottom: 1%;
+  }
+
+  section.propagandas article.prop-centro span{
+    display: inline-flex;
+    
+  }
+
+  article.prop-centro img.icone-prop{
+    width: 5%;
+  }
 }
 
 section {
