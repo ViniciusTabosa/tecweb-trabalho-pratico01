@@ -154,13 +154,11 @@ footer{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 105rem;
-    margin: auto;
+    height: 101rem;
+    
   }
   
   .h2-novidades{
-   
-    margin-top: 15px;
     margin-left: 15px;
     color: #FBB321;
     font-size: 25px;
@@ -721,6 +719,8 @@ footer{
     width: 50%;
     height: 100%;
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .div-novidades .novidade{
@@ -834,10 +834,10 @@ footer{
     font-size: 25px;
     font-weight: lighter;
     color: #F6AE2D;
-    
+    margin-bottom: 3px;
   }
   .forum .h2-div-forum{
-    height: 2%;
+    height: 3%;
   }
   
   .forum .div-forum{
@@ -1477,9 +1477,7 @@ footer{
     font-size: 20px;
   }  
 }
-
 /*Livre 7 - Form */
-
 @media (max-width: 479px){
 /*Seção 7 - Formulário*/
 .section-form{
@@ -1558,15 +1556,17 @@ label{
   width: 259.27px;
 }
 
-#diretor-input{
-  display: block;
-  width: 259.27px;
+label span{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'ZenDots',Times,serif;
+  font-size: 14px;
+  color: white;
+}
+.check{
+  margin-left: 20px;
 }
 
-#ano-input{
-  display: block;
-  width: 259.27px;
-}
 
 #elenco-textarea{
   width: 300px;
@@ -1606,7 +1606,6 @@ label{
 
 }
 }
-
 @media (min-width: 480px) and (max-width: 1150px){
 /*Seção 7 - Formulário*/
 .section-form{
@@ -1685,15 +1684,17 @@ label{
   width: 289.27px;
 }
 
-#diretor-input{
-  display: block;
-  width: 289.27px;
+label span{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'ZenDots',Times,serif;
+  font-size: 14px;
+  color: white;
+}
+.check{
+  margin-left: 20px;
 }
 
-#ano-input{
-  display: block;
-  width: 238.77px;
-}
 
 #elenco-textarea{
   width: 300px;
@@ -1733,7 +1734,6 @@ label{
 
 }
 }
-
 @media (min-width: 1151px) and (max-width: 1500px){
   
 /*Seção 7 - Formulário*/
@@ -1789,7 +1789,7 @@ form label {
 label{
 text-align:left;
 margin-left: 100px;
-margin-top: 30px;
+margin-top: 13px;
 font-family: 'ZenDots', 'Times', serif;
 font-size: 16px;
 color: white;
@@ -1818,12 +1818,15 @@ font-weight: lighter;
   width: 244.36px;
 }
 
-#diretor-input{
-  width: 298.97px;
+label span{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'ZenDots',Times,serif;
+  font-size: 14px;
+  color: white;
 }
-
-#ano-input{
-  width: 184.63px;
+.check{
+  margin-left: 20px;
 }
 
 #elenco-textarea{
@@ -1864,7 +1867,6 @@ font-weight: lighter;
 }
 
 }
-
 @media (min-width: 1501px) and (max-width: 2045px){
 /*Seção 7 - Formulário*/
 .section-form{
@@ -1920,7 +1922,7 @@ label{
   text-align:left;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 13px;
   font-family: "ZenDots", "Times", serif;
   font-size: 16px;
   color: white;
@@ -1949,14 +1951,12 @@ label{
   width: 244.36px;
 }
 
-#diretor-input{
-  width: 298.97px;
+label span{
+  font-family: 'ZenDots',Times,serif;
+  font-size: 14px;
+  color: white;
 }
-
-#ano-input{
-  width: 184.63px;
-}
-
+ 
 #elenco-textarea{
   width: 464px;
   height: 100px;
@@ -1996,7 +1996,6 @@ label{
 }
 
 }
-
 @media (min-width: 2046px){
   /*Seção 7 - Formulário*/
 .section-form{
@@ -2014,6 +2013,7 @@ label{
     width: 50%;
     display: flex;
     justify-content: center;
+    
   }
   
 .sectionarticleForm p{
@@ -2052,7 +2052,7 @@ label{
     text-align:left;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: px;
     font-family: 'ZenDots', 'Times', serif;
     font-size: 16px;
     color: white;
@@ -2081,12 +2081,10 @@ label{
     width: 244.36px;
   }
   
-#diretor-input{
-    width: 298.97px;
-  }
-  
-#ano-input{
-    width: 184.63px;
+  label span{
+    font-family: 'ZenDots',Times,serif;
+    font-size: 14px;
+    color: white;
   }
   
 #elenco-textarea{
@@ -2131,7 +2129,6 @@ label{
 
 /* Vinicius */
 /* Destaques */
-
 .menu-destaque h2{
   color: #FBB321;
   font-weight: lighter;
@@ -2356,21 +2353,24 @@ label{
 .entrevista h2{
   font-size: 25px;
   font-weight: lighter;
+  color: #FBB321;
 }
 
 .info-makingof b{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+  color: white;
 }
 .info-makingof span{
   font-size: 18px;
   font-weight: lighter;
+  color: #FBB321;
 }
 @media (max-width: 479px){
   section.entrevista{
     width: 100%;
     height: 30%;
-    background-color: lightgray;
+    background-color: #363636;
     display: flex;
     margin: auto;
     padding-top: 2%;
@@ -2418,7 +2418,7 @@ label{
   section.entrevista{
     width: 100%;
     height: 30%;
-    background-color: lightgray;
+    background-color: #363636;
     display: flex;
     margin: auto;
     padding-top: 2%;
@@ -2466,7 +2466,7 @@ label{
   section.entrevista{
     width: 100%;
     height: 30%;
-    background-color: lightgray;
+    background-color: #363636;
     display: flex;
     margin: auto;
     padding-top: 2%;
@@ -2509,7 +2509,7 @@ label{
   section.entrevista{
       width: 100%;
       height: 30%;
-      background-color: lightgray;
+      background-color: #363636;
       display: flex;
       margin: auto;
       padding-top: 2%;
@@ -2550,7 +2550,6 @@ label{
     flex-direction: column;
     margin: auto;
     margin-top: 1%;
-    margin-bottom: 1%;
   }
 
   section.livre3 div.novos-videos{
@@ -2565,7 +2564,9 @@ label{
   section.livre3 div.novos-videos h2{
       display: flex;
       justify-content: center;
-      
+      color: #FBB321;
+      font-size: 25px;
+      font-weight: lighter;
   }
 
   section.livre3 div.novos-videos div.video-livre3{
@@ -2593,6 +2594,8 @@ label{
     margin-bottom: 2%;
     font-size: 80%;
     text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
   }
 
   aside.sobre-novos-videos div.aside-sobre{
@@ -2601,7 +2604,35 @@ label{
 
   aside.sobre-novos-videos div.aside-redes{
     width: 40%;
-    font-size: 120%;
+  }
+
+  .aside-sobre h3{
+    color: #FBB321;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .div-editorial h3{
+    color: #FBB321;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .div-editorial p {
+    color: white;
+    font-size: small;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .div-editorial span{
+    color: #FBB321;
+    font-weight: lighter;
+  }
+
+  h4{
+    color: #FBB321;
+    font-weight: lighter;
   }
 
   div.aside-sobre div.div-editorial img.icone{
@@ -2637,7 +2668,9 @@ label{
   section.livre3 div.novos-videos h2{
       display: flex;
       justify-content: center;
-      
+      color: #FBB321;
+      font-size: 25px;
+      font-weight: lighter;
   }
 
   section.livre3 div.novos-videos div.video-livre3{
@@ -2663,8 +2696,10 @@ label{
 
   aside.sobre-novos-videos p{
     margin-bottom: 2%;
-    font-size: 80%;
+    font-size: 15px;
     text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
   }
 
   aside.sobre-novos-videos div.aside-sobre{
@@ -2673,7 +2708,35 @@ label{
 
   aside.sobre-novos-videos div.aside-redes{
     width: 40%;
-    font-size: 120%;
+  }
+
+  .aside-sobre h3{
+    color: #FBB321;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .div-editorial h3{
+    color: #FBB321;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .div-editorial p {
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .div-editorial span{
+    color: #FBB321;
+    font-weight: lighter;
+  }
+
+  h4{
+    color: #FBB321;
+    font-weight: lighter;
   }
 
   div.aside-sobre div.div-editorial img.icone{
@@ -2710,7 +2773,9 @@ label{
   section.livre3 div.novos-videos h2{
       display: flex;
       justify-content: center;
-      
+      color: #FBB321;
+      font-size: 25px;
+      font-weight: lighter;
   }
 
   section.livre3 div.novos-videos div.video-livre3{
@@ -2737,8 +2802,10 @@ label{
 
   aside.sobre-novos-videos p{
     margin-bottom: 2%;
-    font-size: 80%;
+    font-size: 15px;
     text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
   }
 
   aside.sobre-novos-videos div.aside-sobre{
@@ -2747,7 +2814,35 @@ label{
 
   aside.sobre-novos-videos div.aside-redes{
     width: 40%;
-    font-size: 120%;
+  }
+
+  .aside-sobre h3{
+    color: #FBB321;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .div-editorial h3{
+    color: #FBB321;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .div-editorial p {
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .div-editorial span{
+    color: #FBB321;
+    font-weight: lighter;
+  }
+
+  h4{
+    color: #FBB321;
+    font-weight: lighter;
   }
 
   div.aside-sobre div.div-editorial img.icone{
@@ -2785,6 +2880,9 @@ label{
       display: flex;
       justify-content: center;
       margin: auto;
+      color: #FBB321;
+      font-size: 25px;
+      font-weight: lighter;
   }
 
   section.livre3 div.novos-videos div.video-livre3{
@@ -2809,8 +2907,10 @@ label{
 
   aside.sobre-novos-videos p{
     margin-bottom: 2%;
-    font-size: small;
+    font-size: 15px;
     text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
   }
 
   aside.sobre-novos-videos div.aside-sobre{
@@ -2819,7 +2919,35 @@ label{
 
   aside.sobre-novos-videos div.aside-redes{
     width: 40%;
-    font-size: 120%;
+  }
+
+  .aside-sobre h3{
+    color: #FBB321;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .div-editorial h3{
+    color: #FBB321;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .div-editorial p {
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .div-editorial span{
+    color: #FBB321;
+    font-weight: lighter;
+  }
+
+  h4{
+    color: #FBB321;
+    font-weight: lighter;
   }
 
   div.aside-sobre div.div-editorial img.icone{
@@ -2865,6 +2993,7 @@ label{
   div.prop-centrais article.prop-centrais{
     display: flex;
     flex-direction: column;
+  
   }
 
   section.propagandas article.prop-centro {
@@ -2877,11 +3006,14 @@ label{
       padding: 2%;
       margin-bottom: 1%;
       font-size: 80%;
+      color: white;
+      font-weight: lighter;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   section.propagandas article.prop-centro span{
     display: inline-flex;
-    
+    font-weight: lighter;
   }
 
   article.prop-centro img.icone-prop{
@@ -2931,11 +3063,14 @@ label{
       padding: 2%;
       margin-bottom: 1%;
       font-size: 60%;
+      color: white;
+      font-weight: lighter;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   section.propagandas article.prop-centro span{
     display: inline-flex;
-    
+    font-weight: lighter;
   }
 
   article.prop-centro img.icone-prop{
@@ -2989,11 +3124,14 @@ label{
       padding: 2%;
       margin-bottom: 1%;
       font-size: 80%;
+      color: white;
+      font-weight: lighter;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   section.propagandas article.prop-centro span{
     display: inline-flex;
-    
+    font-weight: lighter;
   }
 
   article.prop-centro img.icone-prop{
@@ -3029,6 +3167,7 @@ label{
   div.prop-centrais article.prop-centrais{
     display: flex;
     flex-direction: column;
+    
   }
 
   section.propagandas article.prop-centro {
@@ -3039,11 +3178,14 @@ label{
       flex-direction: column;
       padding: 2%;
       margin-bottom: 1%;
+      color: white;
+      font-weight: lighter;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   section.propagandas article.prop-centro span{
     display: inline-flex;
-    
+    font-weight: lighter;
   }
 
   article.prop-centro img.icone-prop{
@@ -3062,7 +3204,7 @@ section {
 }
 
 .lancamentos {
-  background: #e7e7e7;
+  background: #363636;
   border-radius: 4px;
   color: #777;
 }
@@ -3184,7 +3326,7 @@ section {
   color: #FBB321;
 }
 .top-videos-wrapper {
-  background: #353535;
+  background: #363636;
   display: grid;
   grid-auto-flow: column;
   scroll-behavior: auto;
@@ -3204,6 +3346,12 @@ section {
   text-align: center;
 }
 
+.top-videos h1{
+  color: #FBB321;
+  font-size: 30px;
+  margin-left: 15px;
+  font-weight: lighter;
+}
 .top-video a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   box-sizing: border-box;
@@ -3219,7 +3367,7 @@ section {
 }
 
 .top-video a:hover {
-  background: rebeccapurple;
+  background: #FBB321;
   color: #fff;
 }
 
@@ -3274,14 +3422,15 @@ section {
 }
 
 .comunidade {
-  background: #c7c7c7;
+  background: #777;
 }
 
 .comunidade h1 {
   text-align: center;
   margin: 40px auto;
   font-size: 2rem;
-  color: #333;
+  color: #FBB321;
+  font-weight: lighter;
 }
 
 .comunidade-wrapper {
@@ -3309,14 +3458,17 @@ section {
   display: block;
   width: 100%;
   text-decoration: none;
-  color: #9400d3;
+  color: #FBB321;
+  font-weight: lighter;
 }
 
 .video p {
   display: block;
   margin: 0 auto;
   text-align: center;
-  color: #777;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 
 .video .minutagem {

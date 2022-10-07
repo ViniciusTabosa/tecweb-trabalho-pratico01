@@ -257,9 +257,9 @@
                 <p>Adão Negro é o filme solo do anti-herói, baseado no personagem em quadrinhos Black Adam (Dwayne Johnson) da DC Comics, grande antagonista de Shazam!, tendo no longa, sua história de origem explorada, e revelando seu passado de escravo no país Kahndaq. Nascido no Egito Antigo, o anti-herói tem super força, velocidade, resistência, capacidade de voar e de disparar raios. Alter ego de Teth-Adam e filho do faraó Ramsés II, Adão Negro foi consumido por poderes mágicos e transformado em um feiticeiro. Grande inimigo de Shazam! nas HQs, apesar dele acreditar em seu pontecial e, inclusive, oferecê-lo como um guerreiro do bem, Adão Negro acaba usando suas habilidades especiais para o mal. O anti-herói em busca de redenção ou um herói que se tornou vilão, pode ser capaz de destruir tudo o que estiver pela frente - ou de encontrar seu caminho.</p>
                 <div class="div-editorial">
                     <h3>Editorial</h3>
-                    <p><img src="midia/user-solid-100px.png" alt="" class="icone"><b>Redação:</b> Astolfo Jorge</p>
-                    <p><img src="midia/user-solid-100px.png" alt="" class="icone"><b>Pesquisa:</b>  Deltrano</p>
-                    <p><img src="midia/user-solid-100px.png" alt="" class="icone"><b>Gerente Geral:</b> Joao</p>
+                    <p><img src="midia/user-solid-100px.png" alt="" class="icone"><span>Redação:</span> Astolfo Jorge</p>
+                    <p><img src="midia/user-solid-100px.png" alt="" class="icone"><span>Pesquisa:</span>  Deltrano</p>
+                    <p><img src="midia/user-solid-100px.png" alt="" class="icone"><span>Gerente Geral:</span> Joao</p>
                 </div>
             </div>
             <div class="aside-redes">
@@ -272,7 +272,7 @@
     </section> 
 
     <!--Livre 4-->
-    <section class="section-novidades">
+    <section class="section-novidades" id="novidade">
 
         <div class="div-novidades">
             <h2 class="h2-novidades">Novidades</h2>
@@ -477,9 +477,9 @@
     <section class="section-form">
         <aside>
             <div>
-                <article class="sectionarticleForm"><p>Seja um colaborador do nosso site
-                        e contribua com conteúdos para nossa comunidade de vídeos. Ao lado
-                        é possível você adicionar um vídeo preenchendo o formulário!!!
+                <article class="sectionarticleForm"><p>Participe da nossa comunidade de vídeos enviando 
+                    sua sugestão de vídeos, trailers, making of, erros de gravação e outros conteúdos 
+                    relacionados a esses incríveis multiversos de heróis!!!
                 </p></article>
                 <article class="sectionarticleForm">
                     <p>Apoio:</p>
@@ -495,11 +495,12 @@
 
             <label for="link-input">Link do vídeo:<input type="url" id="link-input" class="input" autocomplete="off"> </label>
 
-            <label for="diretor-input">Diretor:<input type="text" id="diretor-input" class="input" autocomplete="off"> </label>
-            
-            <label for="ano-input">Ano de lançamento:<input type="date" id="ano-input" class="input" ></label>
-            
-            <label for="elenco-textarea">Elenco:</label>
+            <label>Tipo de conteúdo:</label>
+            <label for="trailer"><input type="radio" id="trailer" name="check" class="check"> <span>Trailer</span></label>
+            <label for="makingof"><input type="radio" id="makingof" name="check" class="check"> <span>Making of</span></label>
+            <label for="outros"><input type="radio" id="outros" name="check" class="check"> <span>Outros</span></label>
+                      
+            <label for="elenco-textarea">Sugestões:</label>
 
             <textarea id="elenco-textarea" rows="50" cols="100" wrap="off"></textarea>
 
