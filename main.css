@@ -2577,7 +2577,7 @@ label{
   
 }
 
-/* Vinicius */
+
 /* Destaques */
 .menu-destaque h2{
   color: #FBB321;
@@ -3448,6 +3448,7 @@ label{
 
   section.propagandas article.prop-centro {
       display: flex;
+      width: 95%;
       height: 5rem;
       margin: auto;
       border: 1px #1A8CD8  solid;
@@ -3505,6 +3506,7 @@ label{
 
   section.propagandas article.prop-centro {
       display: flex;
+      width: 95%;
       height: 5rem;
       margin: auto;
       border: 1px #1A8CD8  solid;
@@ -3566,6 +3568,7 @@ label{
 
   section.propagandas article.prop-centro {
       display: flex;
+      width: 95%;
       height: 5rem;
       margin: auto;
       border: 1px #1A8CD8  solid;
@@ -3622,6 +3625,7 @@ label{
 
   section.propagandas article.prop-centro {
       display: flex;
+      width: 95%;
       margin: auto;
       border: 1px #1A8CD8  solid;
       border-radius: 10px;
