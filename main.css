@@ -2635,6 +2635,11 @@ label{
     margin-bottom: 2%;
     border: 1px black solid;
   }
+
+  div.poster-filme img:hover{
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 779px){
@@ -2689,6 +2694,11 @@ label{
     background-color: aquamarine;
     border: 1px black solid;
   }
+
+  div.poster-filme img:hover{
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 780px) and (max-width: 1279px){
@@ -2741,6 +2751,11 @@ label{
     display: flex;
     background-color: aquamarine;
     border: 1px black solid;
+  }
+
+  div.poster-filme img:hover{
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
   }
 }
 
@@ -2797,6 +2812,11 @@ label{
     background-color: aquamarine;
     border: 1px black solid;
   }
+
+  div.poster-filme img:hover{
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+  }
 }
 
 /* Entrevistas e Making of */
@@ -2845,7 +2865,7 @@ label{
   }
 
   section.entrevista div.makingof div.video-makingof iframe{
-    width: 200px;
+    width: 250px;
     height: 150px;
   }
 
@@ -2860,7 +2880,7 @@ label{
     position: relative;
     left: 65%;
     margin-top: 1%;
-    
+    margin-left: -3%;
   }
 }
 
@@ -3000,6 +3020,7 @@ label{
     flex-direction: column;
     margin: auto;
     margin-top: 1%;
+    margin-bottom: -25%;
   }
 
   section.livre3 div.novos-videos{
