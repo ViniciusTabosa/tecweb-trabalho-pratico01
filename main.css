@@ -163,7 +163,7 @@ button:focus{
     width: 90%;
     margin: auto;
   }
-  
+
   .navbar {
     width: 100%;
   }
@@ -183,18 +183,23 @@ button:focus{
     list-style: none;
   }
   
+  .navbar .nav-container input.menu-search{
+    text-decoration: none;
+    color: white;
+    padding: 0.7rem;
+    width: 50%;
+  }
+
   .navbar .nav-container a {
     text-decoration: none;
-    /* color: #0e2431; */
     color: white;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 0.7rem;
   }
   
   .navbar .nav-container a:hover{
       font-weight: bolder;
-      /* color: #FBB321; */
   }
   
   .nav-container {
@@ -233,7 +238,6 @@ button:focus{
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    /* background: #0e2431; */
     background: #FBB321;
   }
   
@@ -253,7 +257,6 @@ button:focus{
   
   .navbar .menu-items {
     padding-top: 120px;
-    /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
     background-color: #202C33;
     height: 60vh;
     width: 70%;
@@ -264,7 +267,6 @@ button:focus{
     padding-left: 20px;
     transition: transform 0.5s ease-in-out;
     border-radius: 10px;
-    /* text-align: center; */
   }
   
   .navbar .menu-items li {
