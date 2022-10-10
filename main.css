@@ -26,31 +26,12 @@ body{
 }
 
 /*Header*/
-.ul-header {
-  list-style: none;
-  padding: 0;
-  overflow: hidden;
-  transition: all .5s;
-}
-
-header nav {
+header .nav {
   background-color: #141D23;
   padding: 0 20px;
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
-}
-
-.img-maior {
-  display: none;
-}
-
-nav,
-.ul-header,
-.input-search,
-.set-logo {
-  display: flex;
-  flex-direction: row;
 }
 
 .input-search {
@@ -72,87 +53,23 @@ nav,
   color: white;
 }
 
-.li-header {
-  padding: 10px 10px;
-}
-
-nav .button-header {
-  border: none;
-  background-color: transparent;
-  color: #FBB321;
-  font-size: 25px;
-  display: none;
-  position: absolute;
-  right: 2px;
-  top: 30px;
-}
-
-.button-header:focus~.ul-header {
-  height: 210px;
-}
-
-.button-header:focus~.input-search {
-  height: 50px;
-}
-
-.button-header:hover{
-  background-color:rgba(255, 255,255, 0.8);
-  opacity: 0.9;
-  cursor: pointer;
-}
-
-
-.barra {
-  color: white;
-  padding: 10px 0;
-}
-
-.li-header a {
-  text-decoration: none;
-  color: #FBB321;
-}
 
 @media(max-width:900px) {
-  nav .ul-header{
+
+  .nav,
+  .set-search {
     display: none;
   }
 
-  nav,
-  .ul-header,
-  .input-search,
-  .set-logo {
-     flex-direction: column;
-  }
-
-  header{
-    align-items: unset;
-  }
-
   .img-menor {
-     display: none;
+    display: none;
   }
 
+  .img-maior {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 
-   .img-maior {
-     display: flex;
-
-  }
-
-  .barra {
-     display: none;
-  }
-
-  .li-header,
-  .ul-header,
-  .input-search {
-     width: 100%;
-  }
-
-  .ul-header,
-  .input-search {
-     text-align: center;
-     margin: 0;
-     height: 0;
   }
 
   /* Menu Hamburguer */
@@ -165,23 +82,32 @@ nav .button-header {
   .navbar {
     width: 100%;
   }
-  
+  .menu-search{
+    background-color: #141D23 ;
+    color: white;
+    display: flex;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    width: 120px;
+}
+
   .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 62px;
   }
-  
+
   .navbar .menu-items {
     display: flex;
   }
-  
+
   .navbar .nav-container li {
     list-style: none;
   }
-  
-  .navbar .nav-container input.menu-search{
+
+  .navbar .nav-container input.menu-search {
     text-decoration: none;
     color: white;
     padding: 0.7rem;
@@ -195,17 +121,17 @@ nav .button-header {
     font-size: 1.1rem;
     padding: 0.7rem;
   }
-  
-  .navbar .nav-container a:hover{
-      font-weight: bolder;
+
+  .navbar .nav-container a:hover {
+    font-weight: bolder;
   }
-  
+
   .nav-container {
     display: block;
     position: relative;
     height: 60px;
   }
-  
+
   .nav-container .checkbox {
     position: absolute;
     display: block;
@@ -217,7 +143,7 @@ nav .button-header {
     opacity: 0;
     cursor: pointer;
   }
-  
+
   .nav-container .hamburger-lines {
     display: block;
     height: 26px;
@@ -230,7 +156,7 @@ nav .button-header {
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .nav-container .hamburger-lines .line {
     display: block;
     height: 4px;
@@ -238,23 +164,23 @@ nav .button-header {
     border-radius: 10px;
     background: #FBB321;
   }
-  
+
   .nav-container .hamburger-lines .line1 {
     transform-origin: 0% 0%;
     transition: transform 0.4s ease-in-out;
   }
-  
+
   .nav-container .hamburger-lines .line2 {
     transition: transform 0.2s ease-in-out;
   }
-  
+
   .nav-container .hamburger-lines .line3 {
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
   }
-  
+
   .navbar .menu-items {
-    padding-top: 120px;
+    padding-top: 100px;
     background-color: #202C33;
     height: 60vh;
     width: 70%;
@@ -265,395 +191,257 @@ nav .button-header {
     padding-left: 20px;
     transition: transform 0.5s ease-in-out;
     border-radius: 10px;
+    padding-bottom: 30px;
   }
-  
+
   .navbar .menu-items li {
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
     font-weight: 500;
   }
-  
-  .nav-container input[type="checkbox"]:checked ~ .menu-items {
+
+  .nav-container input[type="checkbox"]:checked~.menu-items {
     transform: translateX(0);
   }
-  
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+
+  .nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
     transform: rotate(45deg);
   }
-  
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+
+  .nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
     transform: scaleY(0);
   }
-  
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+
+  .nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
 }
-
 @media(min-width: 901px) and (max-width: 1051px){
   .navbar{
     display: none;
   }
 
-  .ul-header {
-    list-style: none;
-    padding: 0;
-    overflow: hidden;
-    transition: all .5s;
-  }
-  
-  header nav {
-    background-color: #141D23;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-  }
-  
-  .img-maior {
-    display: none;
-  } 
 
-  nav,
-  .ul-header,
-  .input-search,
-  .set-logo {
+.img-maior{
+  display: none;
+}
+  header nav{
+    background-color:#141D23;
+    height: 5rem;
     display: flex;
-    flex-direction: row;
-  }
-  
-  .input-search {
-    background-color: #141D23;
+    justify-content: space-between;
+
+}
+
+header nav{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    position: relative;
+    color: white;
+    font-family: 'Racing', Times, serif;
+    font-size: 12px;
+}
+
+header a{
+    text-decoration: none;
+    color: #FBB321;
+}
+
+header .set-logo{
+    display: flex;    
+  margin-right: 30px;
+}
+
+header .set-search{
+    display: flex;
+    border: solid #141D23;
+  margin-left: 30px;
+}
+
+header .input-search{
+    background-color: #141D23 ;
     color: white;
     display: flex;
-    margin: 0;
     border: 0;
     outline: 0;
     font-size: 12px;
     width: 120px;
-    padding: 0;
-    overflow: hidden;
-    margin-right: 5px;
-  }
-  
-  
-  .input-search::placeholder {
+}
+
+header .input-search::placeholder{
     color: white;
-  }
-  
-  .li-header {
-    padding: 10px 10px;
-  }
-  
-  nav button {
-    border: none;
-    background-color: transparent;
-    color: #FBB321;
-    font-size: 25px;
-    display: none;
-    position: absolute;
-    right: 2px;
-    top: 30px;
-  }
-  
-  button:focus~.ul-header {
-    height: 210px;
-  }
-  
-  button:focus~.input-search {
-    height: 50px;
-  }
-  button:hover{
-    background-color:rgba(255, 255,255, 0.8);
-    opacity: 0.9;
-    cursor: pointer;
-  }
-  
-  button:focus{
-    height: 0;
-  }
-  .barra {
-    color: white;
-    padding: 10px 0;
-  }
-  
-  .li-header a {
-    text-decoration: none;
-    color: #FBB321;
-  }
+}
 }
 @media(min-width:1052px) and (max-width: 1500px){
   .navbar{
     display: none;
   }
-  
-  .ul-header {
-    list-style: none;
-    padding: 0;
-    overflow: hidden;
-    transition: all .5s;
-  }
-  
-  header nav {
-    background-color: #141D23;
-    padding: 0 20px;
+.img-maior{
+  display: none;
+}
+  header nav{
+    background-color:#141D23;
+    height: 5rem;
+    display: flex;
     justify-content: space-between;
+
+}
+
+header .nav{   
+    display: flex;
     align-items: center;
-    font-size: 18px;
-  }
-  
-  .img-maior {
-    display: none;
-  }
-  
-  nav,
-  .ul-header,
-  .input-search,
-  .set-logo {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .input-search {
-    background-color: #141D23;
+    justify-content: center;
+    gap: 1em;
+    position: relative;
     color: white;
-    display: flex;
-    margin: 0;
-    border: 0;
-    outline: 0;
-    font-size: 15px;
-    width: 150px;
-    padding: 0;
-    overflow: hidden;
-    margin-right: 10px;
-  }
-  
-  
-  .input-search::placeholder {
-    color: white;
-  }
-  
-  .li-header {
-    padding: 10px 10px;
-  }
-  
-  nav button {
-    border: none;
-    background-color: transparent;
-    color: #FBB321;
-    font-size: 25px;
-    display: none;
-    position: absolute;
-    right: 2px;
-    top: 30px;
-  }
-  
-  button:focus~.ul-header {
-    height: 210px;
-  }
-  
-  button:focus~.input-search {
-    height: 50px;
-  }
-  button:hover{
-    background-color:rgba(255, 255,255, 0.8);
-    opacity: 0.9;
-    cursor: pointer;
-  }
-  
-  button:focus{
-    height: 0;
-  }
-  .barra {
-    color: white;
-    padding: 10px 0;
-  }
-  
-  .li-header a {
+    font-family: 'Racing', Times, serif;
+    font-size: 16px;
+}
+
+header a{
     text-decoration: none;
     color: #FBB321;
-  }
+}
+
+header .set-logo{
+    display: flex;    
+    margin-right: 30px;
+}
+
+header .set-search{
+    display: flex;
+    border: solid #141D23;
+  margin-right: 30px;
+}
+
+header .input-search{
+    background-color: #141D23 ;
+    color: white;
+    display: flex;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 127px;
+}
+
+header .input-search::placeholder{
+    color: white;
+}
 }
 
 @media(min-width: 1501px) and (max-width: 2045px){
   .navbar{
     display: none;
   }
-
-  .ul-header {
-    list-style: none;
-    padding: 0;
-    overflow: hidden;
-    transition: all .5s;
-  }
-  
-  header nav {
-    background-color: #141D23;
-    padding: 0 20px;
+.img-maior{
+  display: none;
+}
+  header nav{
+    background-color:#141D23;
+    height: 5rem;
+    display: flex;
     justify-content: space-between;
+
+}
+
+header .nav{   
+    display: flex;
     align-items: center;
-    font-size: 28px;
-  }
-  
+    justify-content: center;
+    gap: 1em;
+    position: relative;
+    color: white;
+    font-family: 'Racing', Times, serif;
+    font-size: 22px;
+}
 
-
-  .img-maior {
-    display: none;
-  }
-  
-  nav,
-  .ul-header,
-  .input-search,
-  .set-logo {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .input-search {
-    background-color: #141D23;
-    color: white;
-    display: flex;
-    margin: 0;
-    border: 0;
-    outline: 0;
-    font-size: 20px;
-    width: 180px;
-    padding: 0;
-    overflow: hidden;
-    margin-right: 10px;
-  }
-  
-  
-  .input-search::placeholder {
-    color: white;
-  }
-  
-  .li-header {
-    padding: 10px 10px;
-  }
-  
-  nav button {
-    border: none;
-    background-color: transparent;
-    color: #FBB321;
-    font-size: 25px;
-    display: none;
-    position: absolute;
-    right: 2px;
-    top: 30px;
-  }
-  
- 
-  button:hover{
-    background-color:rgba(255, 255,255, 0.8);
-    opacity: 0.9;
-    cursor: pointer;
-  }
-  
- 
-  .barra {
-    color: white;
-    padding: 10px 0;
-  }
-  
-  .li-header a {
+header a{
     text-decoration: none;
     color: #FBB321;
-  }
+}
+
+header .set-logo{
+    display: flex;    
+    margin-left: 50px;
+}
+
+header .set-search{
+    display: flex;
+    border: solid #141D23;
+   margin-right: 50px;
+}
+
+header .input-search{
+    background-color: #141D23 ;
+    color: white;
+    display: flex;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    width: 142px;
+}
+
+header .input-search::placeholder{
+    color: white;
+}
 }
 @media(min-width: 2046px){
   .navbar{
     display: none;
   }
-
-  .ul-header {
-    list-style: none;
-    padding: 0;
-    overflow: hidden;
-    transition: all .5s;
-  }
-  
-  header nav {
-    background-color: #141D23;
-    padding: 0 20px;
+.img-maior{
+  display: none;
+}
+  header nav{
+    background-color:#141D23;
+    height: 5rem;
+    display: flex;
     justify-content: space-between;
+
+}
+
+header nav{   
+    display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 1em;
+    position: relative;
+    color: white;
+    font-family: 'Racing', Times, serif;
     font-size: 35px;
-  }
-  
-  .img-maior {
-    display: none;
-  }
-  
-  nav,
-  .ul-header,
-  .input-search,
-  .set-logo {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .input-search {
-    background-color: #141D23;
-    color: white;
-    display: flex;
-    margin: 0;
-    border: 0;
-    outline: 0;
-    font-size: 30px;
-    width: 235px;
-    padding: 0;
-    overflow: hidden;
-    font-weight: lighter;
-    margin-right: 30px;
-  }
-  
-  
-  .input-search::placeholder {
-    color: white;
-    font-weight: lighter;
-  }
-  
-  .li-header {
-    padding: 10px 10px;
-  }
-  
-  nav button {
-    border: none;
-    background-color: transparent;
-    color: #FBB321;
-    font-size: 25px;
-    display: none;
-    position: absolute;
-    right: 2px;
-    top: 30px;
-  }
-  
-  button:focus~.ul-header {
-    height: 210px;
-  }
-  
-  button:focus~.input-search {
-    height: 50px;
-  }
-  button:hover{
-    background-color:rgba(255, 255,255, 0.8);
-    opacity: 0.9;
-    cursor: pointer;
-  }
-  
-  button:focus{
-    height: 0;
-  }
-  .barra {
-    color: white;
-    padding: 10px 0;
-  }
-  
-  .li-header a {
+}
+
+header a{
     text-decoration: none;
     color: #FBB321;
-  }
+}
+
+header .set-logo{
+    display: flex;    
+    margin-right: 30px;
+}
+
+header .set-search{
+    display: flex;
+    border: solid #141D23;
+  margin-right: 30px;
+}
+
+header .input-search{
+    background-color: #141D23 ;
+    color: white;
+    display: flex;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    width: 160px;
+}
+
+header .input-search::placeholder{
+    color: white;
+}
 }
 /* Footer */
 
