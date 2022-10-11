@@ -3051,10 +3051,9 @@ label{
     margin-right: 2%;
   }
 
-  aside.sobre-novos-videos img.icone-social{
-    width: 30%;
-    height: 30%;
-    margin: -3%;
+  aside.sobre-novos-videos svg{
+    color: white;
+    margin: 3%;
   }
 }
 
@@ -3155,10 +3154,9 @@ label{
     margin-right: 2%;
   }
 
-  aside.sobre-novos-videos img.icone-social{
-    width: 30%;
-    height: 30%;
-    margin: -3%;
+  aside.sobre-novos-videos svg{
+    color: white;
+    margin: 3%;
   }
 }
 
@@ -3261,10 +3259,9 @@ label{
     margin-right: 2%;
   }
 
-  aside.sobre-novos-videos img.icone-social{
-    width: 30%;
-    height: 30%;
-    margin: -3%;
+  aside.sobre-novos-videos svg{
+    color: white;
+    margin: 3%;
   }
 }
 
@@ -3366,10 +3363,9 @@ label{
     margin-right: 2%;
   }
 
-  aside.sobre-novos-videos img.icone-social{
-    width: 30%;
-    height: 30%;
-    margin: -3%;
+  aside.sobre-novos-videos svg{
+    color: white;
+    margin: 3%;
   }
 }
 
