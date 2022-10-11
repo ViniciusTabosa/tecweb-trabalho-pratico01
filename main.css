@@ -3710,6 +3710,11 @@ section {
   border: 1px solid black;
 }
 
+.avaliacoes button{
+  position: relative;
+  left: 80%;
+}
+
 .avaliacao {
   display: grid;
   grid-template-columns: 2fr 8fr;
@@ -3737,7 +3742,7 @@ section {
   color: #FBB321;
 }
 .top-videos-wrapper {
-  background: #363636;
+  background: #353535;
   display: grid;
   grid-auto-flow: column;
   scroll-behavior: auto;
