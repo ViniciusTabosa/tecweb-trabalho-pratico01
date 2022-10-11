@@ -183,7 +183,7 @@ header nav {
   .navbar .menu-items {
     padding-top: 100px;
     background-color: #202C33;
-    height: 60vh;
+    height: 65vh;
     width: 50%;
     transform: translate(-150%);
     display: flex;
